@@ -1,0 +1,420 @@
+Transfers of major conventional arms from All countries  to Australia  . Deals with deliveries made for the year range 'Not specified' to 'Not specified' 
+A '?' in a column indicates uncertain data. The 'Number delivered' and the 'Year(s) of deliveries' refer only to deliveries in the selected year(s).
+An empty field for 'Number ordered' indicates that data is not yet available.
+SIPRI trend-indicator values (TIVs) are in millions.
+An empty field for 'SIPRI TIV for total order' indicates that data (on the number ordered and/or the TIV per unit) is not available.
+A '0' for 'SIPRI TIV of delivered weapons' indicates that the volume of deliveries is between 0 and 0.5 million SIPRI TIV; and an empty field indicates that no deliveries have been identified.
+Figures may not add up to stated totals due to the conventions of rounding.
+For the method used for the SIPRI TIV and explanations of the conventions; abbreviations and acronyms see <https://www.sipri.org/databases/armstransfers/sources-and-methods>.
+
+Source: SIPRI Arms Transfers Database (c) SIPRI.
+Data generated: 29 Aug 2025 3:01:25 AM
+Recipient,Supplier,Year of order, ,Number ordered, ,Weapon designation,Weapon description,Number delivered, ,Year(s) of delivery,status,Comments,SIPRI TIV per unit,SIPRI TIV for total order,SIPRI TIV of delivered weapons
+Australia,United States,2018,?,3900,?,GBU-53/B StormBreaker,guided glide bomb,0,,,New,For F-35A combat aircraft,0,0,0
+Australia,United States,2021,,200,?,AGM-158C LRASM,anti-ship missile,0,,,New,For F/A-18F combat aircraft,0,0,0
+Australia,United States,2024,?,100,?,AGM-88E AARGM,anti-radar missile,0,,,New,,0.6,60,0
+Australia,Canada,1989,,1,,Piranha-2,armoured personnel carrier,1,,1991,Second hand,Second-hand; part of AUD25 m ($17-19 m) 'Project Land-112 Phase-1' or 'ASLAV programme Phase-1'; LAV(R) (LAV-25) recovery version; Australian designation ASLAV,0.12,0.12,0.12
+Australia,United States,2016,?,2950,?,GBU-39 SDB,guided glide bomb,2350,?,2019; 2020; 2021; 2022; 2023; 2024,New,For F-35A combat aircraft,0.02,59,47
+Australia,Austria,2016,,6,,Camcopter S-100,UAV,6,?,2017; 2018,New,AUD16 m ($12 m) 'Navy Minor Project 1942' 3-year lease (extended 2021 for 3 more years),0.2,1.2,1.2
+Australia,United States,1992,,33,,LAV-25 turret,infantry fighting vehicle turret,33,?,1994; 1995; 1996,New,For 33 Piranha-2 (LAV-25 or ASLAV) infantry fighting vehicles from Canada,0.6,19.8,19.8
+Australia,United States,2023,?,,,PrSM,surface-to-surface missile,0,,,New,For HIMARS multiple rocket launchers,0,0,0
+Australia,United States,1982,,100,?,GBU-15,guided bomb,100,?,1984,New,For F-111C combat aircraft,0.02,2,2
+Australia,United States,2022,,12,,MH-60R Seahawk,anti-submarine helicopter,0,,,New,Delivery planned 2025-2026,16.5,198,0
+Australia,United States,2019,?,2,,G-550 SIGINT,signals intelligence aircraft,0,,,New,Part of $1.6 b 'Project Air-555'; Australian designation MC-55A Peregrine,0,0,0
+Australia,United Kingdom,1971,,2,,Oberon,submarine,2,,1977; 1978,New,Australian designation Oxley,75,150,150
+Australia,Germany,2020,?,24,,ship engine,ship engine,0,,,New,MTU diesel engine for 6 Hunter frigates from United Kingdom,1.5,36,0
+Australia,United States,2023,,6,,Mk-45-4 127mm,naval gun,0,,,New,For 6 Hunter frigates from United Kingdom,7.5,45,0
+Australia,Canada,1992,,64,,Piranha-2,armoured personnel carrier,64,?,1994; 1995; 1996,New,Part of $88 m 'Project Land-112 Phase-2' or 'ASLAV programme Phase-2'; most assembled from kits or produced under licence in Australia; incl 2 ambulance; 10 recovery; 9 command post and 10 radar reconnaissance versions; Australian designation ASLAV,0.27,17.28,17.28
+Australia,United States,2020,,6,,Mk-41 VLS,naval SAM system,0,,,New,For 6 Hunter frigates from United Kingdom,20,120,0
+Australia,Ireland,2023,,78,,Bushmaster,armoured personnel carrier,0,,,New,AUD160 m ($106 m) deal; produced under licence in Australia,0.32,24.96,0
+Australia,United States,2023,,78,?,vehicle engine,vehicle engine,0,,,New,Caterpillar-3126 (300hp) diesel engine for 78 Bushmaster armoured personnel carriers from Ireland,0.03,2.34,0
+Australia,United States,1980,?,350,?,Paveway,guided bomb,350,?,1982; 1983; 1984; 1985,New,GBU-12 Paveway-2 version,0.02,7,7
+Australia,United States,2022,,40,?,AGM-158B JASSM-ER,air-to-surface missile,0,,,New,AGM-158B-2 version: for F/A-18F and probably F-35A combat aircraft,1,40,0
+Australia,United States,2023,?,,,AIM-9X Sidewinder,long-range air-to-air missile,0,,,New,,0.18,0,0
+Australia,Germany,2002,,259,?,Waran,armoured personnel carrier,259,?,2007; 2008; 2009; 2010; 2011,New,Part of AUD500 m ($280 m) 'Project Land-106 Phase-2'; Australian M-113A1 armoured personnel carriers rebuilt to Waran in Australia with kits from Germany; Australian designation M-113AS4,0.35,90.65,90.65
+Australia,France,2011,,24,,FLASH,anti-submarine sonar,24,,2013; 2014; 2015; 2016,New,AQS-22 ALFS version for 24 MH-60R anti-submarine helicopters from USA; from production line in USA,2,48,48
+Australia,United States,2022,,40,?,AGM-158B JASSM-ER,air-to-surface missile,0,,,Second hand,Second-hand; for F/A-18F combat aircraft,0.4,16,0
+Australia,United Kingdom,2024,,5,,EC135,light helicopter,5,,2024,New,,2.25,11.25,11.25
+Australia,United States,1988,,1,,Harpoon Block-1,anti-ship missile,1,,1989,New,,0.9,0.9,0.9
+Australia,United States,2024,?,350,?,FGM-148 Javelin,anti-tank missile,0,,,New,FGM-148F version; possibly selected 2024 but not yet ordered by end-2024,0.03,10.5,0
+Australia,United States,2021,,4,,CH-47F Chinook,transport helicopter,4,,2021; 2022,New,AUD595 m ($410 m) deal,20,80,80
+Australia,Canada,1960,?,2,,SQS-504 Diver,anti-submarine sonar,2,,1963; 1964,New,For 2 Rothesay (River) frigates from UK; Type-199 version probably from UK production line,5,10,10
+Australia,Germany,1975,?,6,,CSU-4-41,submarine sonar,6,?,1979; 1980; 1982; 1983; 1984; 1985,New,For modernization of 6 Oxley (Oberon) submarines,5,30,30
+Australia,United States,2024,?,,,SM-2 Block-3C,SAM,0,,,New,For Hobart destroyers and Hunter frigates; selected but not yet ordered by end-2024,0,0,0
+Australia,United States,2021,,800,?,AGM-114 Hellfire-2,anti-tank/air-to-surface missile,350,?,2022; 2023; 2024,New,For helicopters,0.05,40,17.5
+Australia,United States,1996,,14,,LAV-25 turret,infantry fighting vehicle turret,14,?,1996,New,For 14 Piranha-2 (LAV-25 or ASLAV) IFV from Canada,0.6,8.4,8.4
+Australia,United States,1985,,8,,SH-60B Seahawk,anti-submarine helicopter,8,,1989,New,$219 m deal; S-70B-2 version,17,136,136
+Australia,United States,2002,?,4,,Mk-41 VLS,naval SAM system,4,,2006; 2007; 2008,New,For modernisation of 4 Perry (Adelaide) frigated,20,80,80
+Australia,United States,2008,,2,,LM-2500,gas turbine,2,,2014; 2015,New,For 2 BPE (Canberra) amphibious assault ships from Spain,7,14,14
+Australia,United States,1989,,14,,Piranha-2,infantry fighting vehicle,14,,1991,Second hand,Second-hand; AUD25 m ($17-19 m) 'Project Land-112 Phase-1' or 'ASLAV programme Phase-1'; LAV-25 version; Australian designation ASLAV,0.36,5.04,5.04
+Australia,United States,2013,,12,,EA-18G Growler,FGA/electronic warfare aircraft,12,?,2015; 2016; 2017,New,$1.5 b 'Project-5349 Phase-3' programme,60,720,720
+Australia,United Kingdom,1964,,1,,Daring,destroyer,1,,1964,Second hand,Second-hand; on loan until bought 1972,56,56,56
+Australia,United States,2010,,10,?,RQ-7 Shadow-200,UAV,10,?,2011; 2012,New,AUD175 m ($157 m) deal (incl 4 control systems); for use in Afghanistan,0.1,1,1
+Australia,United States,2006,?,260,?,AGM-158A JASSM,air-to-surface missile,260,?,2009; 2010; 2011; 2012; 2013,New,AUD350-450 m ($270-350 m) 'Project Air-5418'; for F/A-18 combat aircraft,0.64,166.4,166.4
+Australia,United States,2015,,2,,C-17A Globemaster-3,heavy transport aircraft,2,,2015,New,AUD700 m ($544 m) deal,140,280,280
+Australia,Israel,2007,?,10,?,RecceLite,aircraft reconnaissance system,10,?,2009; 2010,New,Probably ordered via USA,4,40,40
+Australia,Israel,2005,,37,,Litening,aircraft electro-optical system,37,?,2006; 2007,New,Litening-AT version; for F/A-18 combat aircraft; ordered via USA; from US production line,1,37,37
+Australia,United States,1959,?,54,,Bell-47/OH-13,light helicopter,54,?,1960; 1962; 1963; 1964; 1965; 1966; 1967; 1968; 1969,New,,0.24,12.96,12.96
+Australia,United States,2014,,3,,F414,turbofan,3,?,2016,New,F-414-GE-400 version; spare engines for F/A-18E combat aircraft,2.5,7.5,7.5
+Australia,United States,2012,,7,,CH-47F Chinook,transport helicopter,7,,2015,New,AUD514 m ($470 m) 'Project Air-9000 Phase-5C',20,140,140
+Australia,United States,1959,?,254,?,M-101A1 105mm,towed gun,254,?,1960; 1961,Second hand,Probably second-hand,0.18,45.72,45.72
+Australia,United States,1988,,40,?,RIM-66B Standard-1MR,SAM,40,?,1988,Second hand,Second-hand; $25-31 m deal; for training,0.1,4,4
+Australia,New Zealand,1972,,37,,CT-4 Airtrainer,(armed) trainer aircraft,37,?,1974; 1975,New,AUD2.8 m ($3.3 m) deal,0.15,5.55,5.55
+Australia,United States,2016,,3,,CH-47F Chinook,transport helicopter,3,,2016,New,$180 m deal,20,60,60
+Australia,United States,1951,,12,,P-2E Neptune,anti-submarine aircraft,12,?,1951; 1952,New,,10,120,120
+Australia,United States,2005,?,12,?,aircraft engine,aircraft engine,12,?,2006; 2007; 2008,New,'Air-9000 Phase-5A' programme; Lycoming T-55-L-712 (3750hp) turboshaft for modernization of 6 CH-47 helicopters,1.1,13.2,13.2
+Australia,Canada,1963,,18,,DHC-4 Caribou,transport aircraft,18,?,1963; 1964; 1965,New,GBP8 m deal,3.75,67.5,67.5
+Australia,France,2005,,12,,NH-90 TTH,transport helicopter,12,?,2007; 2008; 2009; 2010,New,AUD1 b ($760 m) 'Project Air-9000 Phase-2' (offsets at least $233 m incl assembly of 8 in Australia); MRH-90 version,7,84,84
+Australia,Germany,2021,,45,?,vehicle engine,vehicle engine,0,,,New,MTU MT-881 (1050hp) diesel engine for 30 K-9 self-propelled guns and 15 K-10 supply vechicles from South Korea,0.16,7.2,0
+Australia,United States,2014,?,9,?,Mk-15 Phalanx,naval gun,9,?,2015; 2016; 2018; 2019; 2020; 2021,New,Australian Phalanx Block-1A rebuilt to Block-1B,7,63,63
+Australia,United States,1987,,25,,S-70 Black Hawk,transport helicopter,25,,1989; 1990; 1991,New,Part of $202 m 'Project Air 5046'; S-70A-9 version,6.5,162.5,162.5
+Australia,Norway,2024,,,,JSM,air-to-surface/anti-ship missile,0,,,New,AUD142 m ($96 m) 'Project Air-3023 Phase-2' programme; for F-35A combat aircraft,1.2,0,0
+Australia,France,2022,,12,,FLASH,anti-submarine sonar,0,,,New,For 12 MH-60R anti-submarine helicopters from USA; from production line in USA,2,24,0
+Australia,United States,2023,?,24,?,aircraft engine,aircraft engine,0,,,New,Rolls-Royce AE-2100D (4590hp) turboprop engine; spare engines for C-130J transport aircraft,1.5,36,0
+Australia,Sweden,2010,,3,,Giraffe-AMB,air-search radar,3,,2012; 2013,New,SEK550 m ($86 m) 'Land-19 Phase-7A' deal (incl 1 on lease from 2011 until delivery of 3 ordered); for use in Afghanistan,7.5,22.5,22.5
+Australia,United States,2022,,2040,?,GMLRS,guided rocket,0,,,New,For use with HIMARS multiple rocket launchers; probably incl production of components in Australia,0.08,163.2,0
+Australia,United States,1980,,4,,F-111C,bomber aircraft,4,,1983,Second hand but modernized,Second-hand F-111A modernized for $15 m to F-111C before delivery; $42 m deal,33,132,132
+Australia,United Kingdom,2015,,2,,air refuel system,air refuel system,2,,2018; 2019,New,For modification of 2 A330 transport aircraft to A330 MRTT tanker/transport aircraft,10,20,20
+Australia,United Kingdom,1962,,2,,Scout,light helicopter,2,,1963,New,,0.8,1.6,1.6
+Australia,United Kingdom,1961,,27,,Wessex HAS-1,anti-submarine helicopter,27,?,1962; 1963,New,GBP7 m deal; Wessex HAS-31 version,7.5,202.5,202.5
+Australia,United Kingdom,2018,,6,?,Hunter,frigate,0,,,New,'SEA-5000' or 'Future Frigate' programme; produced under licence in Australia; delivery planned from 2031,0,0,0
+Australia,United Kingdom,2012,,19,,UFH/M-777 155mm,towed gun,19,?,2014; 2015,New,$70 m deal; ordered via USA from US production line; M-777A2 version,1,19,19
+Australia,United States,2002,,64,,Harpoon Block-2,anti-ship/land-attack missile,64,?,2006; 2008; 2010; 2014,New,AUD170 m ($96 m) 'Project Sea-1348'; RGM-84L Harpoon Block-2 version; for MEKO-200 (Anzac) frigates,1,64,64
+Australia,Spain,2007,,2,,BPE,amphibious assault ship,2,,2014; 2015,New,AUD3 b ($2.4 m) 'Joint Project-2048 Phase-4A/B/C'; incl production under licence in Australia; Australian designation Canberra,479.5,959,959
+Australia,France,1961,,110,,Mirage-3E,FGA aircraft,110,?,1963; 1964; 1965; 1966; 1967; 1968,New,Incl 49 Mirage-3OF; 51 Mirage-3OA and 10 Mirage-3OD versions; incl 108 assembled/produced under licence in Australia; Australian designation CA-29,12,1320,1320
+Australia,United States,1970,,24,,F-4E Phantom-2,FGA aircraft,24,?,1970; 1971,Second hand,Second-hand; on lease until delivery of F-111 combat aircraft in 1973,10,240,240
+Australia,New Zealand,1991,,6,,A-4K Skyhawk-2,FGA aircraft,6,,1991,Second hand,Leased from New Zealand and operated by New Zealand air force for training of Australian navy,5.6,33.6,33.6
+Australia,Israel,2009,,10,?,Heron,UAV,10,?,2009,New,'Project Nankeen'; leased from producer via Canadian company; for use in Afghanistan,3,30,30
+Australia,United States,2005,,3,,King Air,light transport aircraft,3,,2005; 2006,New,10-year lease (bought and owned by Australian company); King Air-350 version; incl for surveillance,2.85,8.55,8.55
+Australia,United States,2011,,3,,Bell-429 GlobalRanger,light helicopter,3,,2012,New,AUD26 m ($24 m) 4-year lease; for training,2.8,8.4,8.4
+Australia,United Kingdom,1989,,1,,Appleleaf,replenishment tanker,1,,1989,Second hand,Second-hand; on lease until bought in 1994; Australian designation Westralia,22,22,22
+Australia,United Kingdom,1952,?,1,,Colossus,aircraft carrier,1,,1952,Second hand,Second-hand; on loan until delivery of new modified Majestic aircraft carrier in 1955,120,120,120
+Australia,Sweden,1985,,100,?,RBS-70,portable SAM,100,?,1987,New,$12 m deal (incl 19 launchers),0.08,8,8
+Australia,United States,2006,,500,?,AGM-114 Hellfire-2,anti-tank/air-to-surface missile,500,?,2006; 2007; 2008; 2009,New,AUD31 m ($25 m) deal; for AS-665 helicopters,0.05,25,25
+Australia,United States,2006,,4,,C-17A Globemaster-3,heavy transport aircraft,4,,2006; 2007; 2008,New,AUD1.9 b ($1.5 b) deal (offsets AUD345 m),140,560,560
+Australia,France,1965,,3,,Falcon-20,light transport aircraft,3,,1967,New,,7.3,21.9,21.9
+Australia,United Kingdom,1946,,3,,Daring,destroyer,3,,1957; 1958; 1959,New,Australian designation Voyager; 1 more cancelled 1954,140,420,420
+Australia,United Kingdom,1945,,2,,Battle,destroyer,2,,1950; 1951,New,Battle Batch-3 version; Australian designation Tobruk; 2 more cancelled,117.5,235,235
+Australia,United States,1982,,7,,TPQ-36 Firefinder,artillery locating radar,7,?,1986; 1987,New,Incl production of components on Australia,3,21,21
+Australia,United Kingdom,1951,?,143,?,Centurion-3,tank,143,?,1953; 1954; 1955; 1956,New,,1.35,193.05,193.05
+Australia,Italy,2006,?,2,,A-109K,light helicopter,2,?,2007,New,For civilian company for training of Australian pilots; A-109E version,2.75,5.5,5.5
+Australia,United States,1954,?,2,,CV-440,transport aircraft,2,,1955,New,For VIP transport,5,10,10
+Australia,France,1977,,1,,Durance,replenishment ship,1,,1986,New,Australian designation Success,150,150,150
+Australia,United Kingdom,1977,,15,,Fremantle,patrol boat,15,,1980; 1981; 1982; 1983; 1984,New,AUD140 m deal; incl 14 produced in Australia; plan for 5 more cancelled,12.3,184.5,184.5
+Australia,United States,1971,,56,,Bell-206,light helicopter,56,?,1971; 1972; 1973; 1974; 1975; 1976; 1977,New,Bell-206B-1 version; 44 assembled/produced in Australia,0.7,39.2,39.2
+Australia,United Kingdom,1948,?,70,,Vampire FB-5,fighter aircraft,70,?,1950; 1951; 1952; 1953,New,Incl 57 Vampire F-30 and 23 Vampire FB-31 version,3,210,210
+Australia,United Kingdom,1945,?,29,?,Lincoln,bomber aircraft,29,,1950; 1951; 1952; 1953,New,Lincoln B-30 version; produced under licence in Australia,4.9,142.1,142.1
+Australia,United States,1983,,2,,Perry,frigate,2,,1992; 1993,New,Australian designation Adelaide,300,600,600
+Australia,United States,1981,,75,,F/A-18A Hornet,FGA aircraft,75,,1985; 1986; 1987; 1988; 1989; 1990,New,$2.8 b deal; 73 assembled from kits in Australia; incl 18 F/A-18B version,30,2250,2250
+Australia,United Kingdom,1982,?,111,,L-118 105mm,towed gun,111,?,1987; 1988; 1989; 1990; 1991; 1992,New,$112 m 'Hamel' programme; incl 105 assembled/produced in Australia,0.6,66.6,66.6
+Australia,United Kingdom,1997,,33,,Hawk-100,trainer/combat aircraft,33,?,2000; 2001,New,$494 m deal; Hawk-127 unarmed trainer version; incl 21 assembled in Australia,10,330,330
+Australia,United States,2015,,6,,M-88A2 HERCULES,armoured recovery vehicle,6,,2016,New,,2,12,12
+Australia,United States,2004,,59,,M-1A1 Abrams,tank,59,,2006; 2007,Second hand but modernized,Second-hand but modernized to M-1A1AIM(D) before delivery; AUD530-550 m ($420-475 m) 'Project Land-907',2.64,155.76,155.76
+Australia,Sweden,2003,,150,?,RBS-70 Mk-3 Bolide,portable SAM,150,?,2003; 2004; 2005; 2006; 2007,New,SEK150 m ($18 m) deal (part of SEK600 m 'Project Land-19 Phase-6'),0.1,15,15
+Australia,Germany,1989,,8,,MEKO-200ANZ,frigate,8,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006,New,$2.7 b deal; Australian designation Anzac,251.25,2010,2010
+Australia,United States,2002,,7,,King Air,light transport aircraft,7,?,2003; 2004,New,$170 m 10-year lease (bought and owned by Australian company); King Air-350 version; for training,2.85,19.95,19.95
+Australia,United Kingdom,1977,,1,,Round Table,landing ship,1,,1981,New,AUD59 m deal; Australian designation Tobruk,50,50,50
+Australia,United States,2003,?,150,?,Mk-48 Mod-5 ADCAP,anti-ship/anti-submarine torpedo,150,?,2007; 2008; 2009; 2010; 2011,New,AUD465 m ($280 m) 'Project Sea-1429 Phase-2'; Mk-48 Mod-7 CBASS version; for Collins submarines,1.6,240,240
+Australia,United States,2020,?,200,,FGM-148 Javelin,anti-tank missile,200,?,2022,New,FGM-148E version,0.03,6,6
+Australia,United States,2008,,41,?,vehicle engine,vehicle engine,41,?,2010,New,Caterpillar-3126 ATTAC (300hp) diesel engine for 41 Bushmaster armoured personnel carriers produced in Australia,0.03,1.23,1.23
+Australia,Switzerland,1986,,67,,PC-9,(armed) trainer aircraft,67,,1987; 1988; 1989; 1990; 1991,New,$145 m deal (offsets 30%); unarmed PC-9/A version; incl 17 assembled and 48 produced under licence in Australia,1.9,127.3,127.3
+Australia,United States,1993,,2,,Newport,landing ship,2,,1994,Second hand,Second-hand (but modernized and modified 1996-2000 in Australia after delivery); AUS70 m 'Joint Project-2027 Phase-1'; Australian designation Kanimbla,30.17,60.34,60.34
+Australia,United States,2023,?,63,?,AGM-88E AARGM,anti-radar missile,0,,,New,AUD431 m deal; AARGM-ER version,0.6,37.8,0
+Australia,Israel,2023,,,,Spike-LR-2,anti-tank missile,0,,,New,'Land 159 Lethality System' programme (part of 'Land-400 Phase-2' programme); for Boxer IFV; delivery planned from 2024,0.06,0,0
+Australia,Austria,2018,,8,,DA40,light aircraft,8,,2019,New,DA40NG version; for training; incl 6 from Canadian production line,0.15,1.2,1.2
+Australia,South Korea,2004,,1,,Delos,tanker,1,,2006,New,AUD50 m ($35 m) deal (modified for AUD60 m in Australia to replenishment tanker); Australian designation Sirius,30,30,30
+Australia,United States,2007,?,6,,LM-2500,gas turbine,6,,2017; 2018; 2020,New,For 3 Hobart destroyers from Spain,7,42,42
+Australia,United States,2007,?,6,,ship engine,ship engine,6,,2017; 2018; 2020,New,Caterpillar (6120hp) diesel engine for 3 Hobart destroyers from Spain; from production line in Spain,2.5,15,15
+Australia,Canada,1964,,7,,DHC-4 Caribou,transport aircraft,7,,1966,New,,3.75,26.25,26.25
+Australia,Italy,2012,,10,,C-27J Spartan,transport aircraft,10,?,2015; 2016; 2017; 2018,New,AUD1.4 b ($1.4 b) 'Project Air-8000 Phase-2',16,160,160
+Australia,United Kingdom,2021,,33,,Adour,turbofan,0,,,New,For modernization of 33 Hawk-127 trainer aircraft; Adour-951 version; delivery planned by 2025,1.3,42.9,0
+Australia,United States,2007,,4,?,ScanEagle,UAV,4,?,2007,New,Leased for use in Iraq and Afghanistan and Iraq,0.04,0.16,0.16
+Australia,France,2003,,300,?,MU-90 IMPACT,anti-submarine torpedo,300,?,2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017,New,EUR150 m 'Joint Project-2070 Djimindi Phase-3' (incl up to 35% of components produced in Australia),0.5,150,150
+Australia,United States,1998,,81,,LAV-25 turret,infantry fighting vehicle turret,81,?,2003; 2004; 2005,New,For 81 Piranha-2 (LAV-25 or ASLAV) infantry fighting vehicles from Canada; produced under licence in Australia,0.6,48.6,48.6
+Australia,United States,1951,,111,,F-86 Sabre,fighter aircraft,111,?,1956; 1957; 1958; 1959; 1960; 1961,New,Version modified in Australia with UK engine; Australian designation CA-27 Sabre; incl 21 Mk-31; 21 Mk-31 and 69 Mk-32 version,3,333,333
+Australia,United States,2010,?,3,,Mk-45-4 127mm,naval gun,3,,2017; 2018; 2020,New,For 3 Hobart destroyers from Spain,7.5,22.5,22.5
+Australia,South Korea,2023,,129,,K-21,infantry fighting vehicle,0,,,New,'Project Land-400' or 'Mounted Close Combat Capability'; incl production under licence in Australia; delivery planned 2027-2028,1.7,219.3,0
+Australia,Canada,1992,,33,,Piranha-2,infantry fighting vehicle,33,?,1994; 1995; 1996,New,Part of $88 m 'Project Land-112 Phase-2' or 'ASLAV programme Phase-2'; LAV-25 version; most assembled from kits in Australia; Australian designation ASLAV-25,0.27,8.91,8.91
+Australia,United Kingdom,1957,?,4,,Rothesay,frigate,4,,1961; 1962; 1963; 1964,New,Produced under licence as River class,110,440,440
+Australia,United Kingdom,1966,?,2,,River,frigate,2,,1968; 1969,New,Procuced under licence in Australia,110,220,220
+Australia,United Kingdom,1951,?,50,,Canberra B-2,bomber aircraft,50,?,1951; 1952; 1953; 1954; 1955; 1956; 1957; 1958,New,Canberra B-20 version; incl 48 assembled from kits in Australia and 2 Canberra T-21 trainer version,8.5,425,425
+Australia,United Kingdom,1951,,40,,Vampire T-55,trainer aircraft,40,,1952; 1954,New,Incl 35 Vampire T-33 and 5 Vampire T-35 version,2.25,90,90
+Australia,Italy,1994,,6,,Gaeta,MCM ship,6,,1999; 2000; 2001; 2002,New,$515-636 m 'Sea-1555' programme; Australian designation Huon,57.5,345,345
+Australia,United Kingdom,1954,?,70,,Vampire T-55,trainer aircraft,70,?,1956; 1957; 1958; 1959; 1960,New,Incl 1 Vampire T-34A and 69 Vampire T-35A version,2.25,157.5,157.5
+Australia,Norway,1998,,44,?,Penguin-2,anti-ship missile,44,?,2001; 2002,New,AUD76-79 m ($40-49 m) 'Project Sea-1414 Phase-1' deal (offsets incl production of warheads in Australia); Penguin-2 Mod-7 version; for SH-2G helicopters; delivered but stored after SH-2G cancelled,0.4,17.6,17.6
+Australia,United States,1998,,4,,TPS-77,air-search radar,4,?,2004; 2005,New,AUD125-150 m ($68-90 m) 'Project Air-5375',11,44,44
+Australia,Canada,1998,,81,?,Piranha-2,infantry fighting vehicle,81,?,2003; 2004; 2005,New,Part of $180-210 m 'Project Land-112 Phase-3' or 'ASLAV programme Phase-3'; LAV-25 version; Australian designation ASLAV-25,0.27,21.87,21.87
+Australia,Canada,1998,,69,?,Piranha-2,armoured personnel carrier,69,?,2002; 2003; 2004; 2005,New,Part of $180-210 m 'Project Land-112 Phase-3' or 'ASLAV programme Phase-3'; LAV-25 version; incl 7 ambulance; 11 recovery; 14 command post; 15 radar reconnaissance and 11 repair versions; Australian designation ASLAV; incl production of components in Australia,0.27,18.63,18.63
+Australia,United States,2002,,400,?,ESSM,SAM,400,?,2003; 2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011; 2012; 2013; 2014; 2015; 2016; 2017,New,For MEKO-200 (Anzac) and modernized Perry (Adelaide) frigates; incl production of components in Australia (as part of NATO Sea Sparrow Consortium),0.4,160,160
+Australia,Norway,1999,,40,?,Penguin-2,anti-ship missile,40,?,2002; 2003,New,AUD76 m ($36-49 m) 'Project Sea-1414 Phase-2' (offsets incl production of warheads in Australia); Penguin-2 Mod-7 version; for SH-2G helicopters; delivered but stored after SH-2G cancelled,0.4,16,16
+Australia,United Kingdom,1999,,61,,MSTAR,ground surveillance radar,61,?,2002; 2003; 2004; 2005,New,$32 m 'Project NINOX'; 55 assembled in Australia; Australian designation AMSTAR,0.5,30.5,30.5
+Australia,United States,2000,,4,,Boeing-737 AEW&C,airborne early-warning aircraft,4,,2009; 2010,New,Part of AUD3.8 b ($2.5-3.5 b) 'Wedgetail' programme or 'Project Air-5077 Phase-3' (incl production of components and assembly of 2 in Australia); Australian designation A-30,250,1000,1000
+Australia,United States,2005,?,175,?,Standard Missile-2MR,SAM,175,?,2008; 2009; 2010; 2011; 2012; 2013,New,'Project Sea 1390-4B'; SM-2 Block-3A version; for modernized Perry (Adelaide) frigates,0.3,52.5,52.5
+Australia,France,2001,,22,,EC-665 Tiger,combat helicopter,22,?,2004; 2005; 2006; 2007; 2008; 2009; 2010; 2011,New,AUD1.3 b ($670-981 m) 'Project Air-87' (offsets incl production of components and assembly of 18 in Australia and production of EC-120 helicopter for Asian market); Aussie Tiger version,11.5,253,253
+Australia,United States,2004,,2,,Boeing-737 AEW&C,airborne early-warning aircraft,2,,2011; 2012,New,AUD326 m ($224 m) deal (part of AUD3.8 b ($2.5-3.5 b) 'Wedgetail' programme or 'Project Air-5077 Phase-3'; incl production of components and assembly in Australia); Australian designation A-30,250,500,500
+Australia,Ireland,2007,,253,?,Bushmaster,armoured personnel carrier,253,?,2008; 2009; 2010,New,,0.32,80.96,80.96
+Australia,Ireland,1999,?,299,,Bushmaster,armoured personnel carrier,299,?,2005; 2006; 2007,New,AUD203 m ($105 m) 'Bushranger' programme; designed for production in Australia; incl command post; ambulance and other versions,0.32,95.68,95.68
+Australia,Ireland,2006,,144,,Bushmaster,armoured personnel carrier,144,?,2007; 2008,New,,0.32,46.08,46.08
+Australia,Ireland,2008,,41,,Bushmaster,armoured personnel carrier,41,?,2010,New,,0.32,13.12,13.12
+Australia,Ireland,2011,,101,,Bushmaster,armoured personnel carrier,101,?,2012,New,,0.32,32.32,32.32
+Australia,Ireland,2012,,214,,Bushmaster,armoured personnel carrier,214,?,2012; 2013; 2014,New,,0.32,68.48,68.48
+Australia,United States,2008,,250,,M-982 Excalibur,guided shell,250,?,2009,New,$40 m deal,0.04,10,10
+Australia,United States,2008,,47,,AIM-9X Sidewinder,long-range air-to-air missile,47,?,2009; 2010,New,,0.18,8.46,8.46
+Australia,United States,2023,?,1,,Virginia,nuclear submarine,0,,,New,Part of 'AUKUS' agreement; Virginia Block-7 version; option on 2 more; delivery planned 2038; selected 2023 but not ordered by end-2024,0,0,0
+Australia,United Kingdom,2023,?,3,?,SSN-AUKUS,nuclear submarine,0,,,New,Part of 'AUKUS' agreement; delivery planned from late-2030s; incl 2 produced under licence in Australia,0,0,0
+Australia,United States,2008,,8,?,F414,turbofan,8,?,2010; 2011,New,F-414-GE-400 version; spare engines for F/A-18E combat aircraft,2.5,20,20
+Australia,United States,1980,,12,?,AVQ-26 Pave Tack,aircraft electro-optical system,12,?,1985,New,For F-111C combat aircraft,1,12,12
+Australia,United States,1996,,20,?,AVQ-26 Pave Tack,aircraft electro-optical system,20,?,1997,Second hand,Second-hand; for F-111C and F-111G combat aircraft,0.4,8,8
+Australia,Sweden,2009,?,2,,Giraffe-AMB,air-search radar,2,,2014; 2015,New,For 2 BPE (Canberra) amphibious assault ships from Spain,7.5,15,15
+Australia,France,2009,?,2,,Vampyr,air-search system,2,,2014; 2015,New,Vampyr-NG version for 2 BPE (Canberra) amphibious assault ships from Spain,2,4,4
+Australia,United States,2011,,1,,C-17A Globemaster-3,heavy transport aircraft,1,,2011,New,$300 m deal,140,140,140
+Australia,United Kingdom,1952,?,3,,Prince,light transport aircraft,3,,1952,New,,0.75,2.25,2.25
+Australia,United States,2007,,253,?,vehicle engine,vehicle engine,253,?,2008; 2009; 2010,New,Caterpillar-3126 ATTAC (300hp) diesel engine for 253 Bushmaster armoured personnel carriers produced in Australia,0.03,7.59,7.59
+Australia,United States,2011,,101,?,vehicle engine,vehicle engine,101,?,2012,New,Caterpillar-3126 ATTAC (300hp) diesel engine for 101 Bushmaster armoured personnel carriers produced in Australia,0.03,3.03,3.03
+Australia,United States,2006,,144,?,vehicle engine,vehicle engine,144,?,2007; 2008,New,Caterpillar-3126 ATTAC (300hp) diesel engine for 144 Bushmaster armoured personnel carriers produced in Australia,0.03,4.32,4.32
+Australia,Germany,1976,?,50,,Leopard-1A3,tank,50,?,1978,New,Leopard AS-1 version,2.5,125,125
+Australia,United Kingdom,2004,,5,,air refuel system,air refuel system,5,?,2011; 2012,New,For 5 A-330 MRTT tanker/transport aircraft from France,10,50,50
+Australia,United States,2012,,1,,C-17A Globemaster-3,heavy transport aircraft,1,,2012,New,,140,140,140
+Australia,United States,2011,,2,,CH-47D Chinook,transport helicopter,2,,2012,Second hand,Second-hand,7.2,14.4,14.4
+Australia,Norway,2012,,1,,Skandi Bergen,patrol ship,1,,2012,Second hand,Second-hand; AUD130 m ($137m) deal; incl for disaster relief,26,26,26
+Australia,United Kingdom,1975,,570,?,Rapier-1,SAM,570,?,1977; 1978; 1979; 1980; 1981; 1982; 1983; 1984; 1985; 1986; 1987; 1988; 1989,New,,0.1,57,57
+Australia,United States,1986,,14,,S-70 Black Hawk,transport helicopter,14,,1987; 1988,New,$210 m 'Project Air 5046'; incl 13 assembled in Australia; S-70A-9 version,6.5,91,91
+Australia,United States,1986,,8,,SH-60B Seahawk,anti-submarine helicopter,8,?,1990; 1991,New,$132 m deal; S-70B-2 version; assembled in Australia from kits,17,136,136
+Australia,Italy,1968,?,22,,MB-326B,trainer/combat aircraft,22,?,1971; 1972,New,Assembled/produced in Australia; unarmed MB-326H version,2.1,46.2,46.2
+Australia,Italy,1965,,75,,MB-326B,trainer/combat aircraft,75,?,1968; 1969; 1970; 1971,New,Assembled/produced in Australia; unarmed MB-326H version,2.1,157.5,157.5
+Australia,Germany,2008,,81,?,Waran,armoured personnel carrier,81,?,2011; 2012,New,Australian M-113A1 armoured personnel carriers rebuilt to Waran; assembled in Australia with kits from Germany; Australian designation M-113AS4,0.35,28.35,28.35
+Australia,France,1982,,12,,AS-350/AS-550 Fennec,light helicopter,12,,1984,New,$24 m deal; AS-350B version; for training,0.9,10.8,10.8
+Australia,France,1983,,6,,AS-350/AS-550 Fennec,light helicopter,6,?,1984,New,$6 m deal; AS-350B version; for training,0.9,5.4,5.4
+Australia,United Kingdom,1965,,97,?,Viper,turbojet,97,?,1968; 1969; 1970; 1971; 1972,New,For 97 MB-326H from Italy; probably from production line in Italy,0.4,38.8,38.8
+Australia,United Kingdom,1963,,4,,Oberon,submarine,4,,1967; 1968; 1969,New,AUP20 m deal; Australian designation Oxley,75,300,300
+Australia,United States,2007,,24,,F/A-18E Super Hornet,FGA aircraft,24,,2010; 2011,New,AUD6 b ($4.8 b) deal; interim solution to cover gap between F-111 retirement and delivery of F-35; F/A-18F version,50,1200,1200
+Australia,France,2005,,17,,Vampyr,air-search system,17,?,2010; 2011; 2014; 2015; 2016; 2017,New,Vampyr-NG version for modernization of 8 MEKO-200 (Anzac) frigates,2,34,34
+Australia,United Kingdom,2010,?,35,,UFH/M-777 155mm,towed gun,35,,2012,New,'Land-17' programme; ordered via USA from US production line; M-777A2 version,1,35,35
+Australia,Italy,2020,?,2,,AW139,helicopter,2,?,2021,New,For Australian company for 2-year lease to Australian armed forces as 'Plan Corella' or 'Army Interim Commercial Helicopter',6,12,12
+Australia,China,2020,?,1,,AW139,helicopter,1,,2021,Second hand,Second-hand; for Australian company for 2-year lease to Australian armed forces as 'Plan Corella' or 'Army Interim Commercial Helicopter',2.4,2.4,2.4
+Australia,United Kingdom,2017,,1,,AW139,helicopter,1,,2017,Second hand,Second-hand; for Australian company for 15-month lease for SAR to Australian navy,2.4,2.4,2.4
+Australia,United Kingdom,2011,,1,,Enforcer,amphibious assault ship,1,,2011,Second hand,Second-hand; GBP65 m ($106 m) deal; Australian designation Choules,40,40,40
+Australia,United States,2012,,20,?,aircraft engine,aircraft engine,20,?,2015; 2016; 2017; 2018,New,Allison AE-2100D3 (5000hp) turboprop for 10 C-27J transport aircraft from Italy,1.5,30,30
+Australia,Spain,2020,?,3,,Lanza-MRR,air-search radar,3,,2023,New,Part of 'Air-5341 Phase-1' project,10,30,30
+Australia,United States,2007,?,24,?,ASQ-228 ATFLIR,aircraft electro-optical system,24,?,2010; 2011,New,For F/A-18E combat aircraft,1.1,26.4,26.4
+Australia,United Kingdom,2011,?,20,?,ASRAAM,long-range air-to-air missile,20,,2012,New,Possibly second-hand,0.18,3.6,3.6
+Australia,United Kingdom,1951,,111,?,Avon,turbojet,111,?,1956; 1957; 1958; 1959; 1960; 1961,New,For 111 CA-27 Sabre (modified F-86F) combat aircraft from USA,1.25,138.75,138.75
+Australia,Germany,1975,,5,,BrPz-1 Biber,armoured bridgelayer,5,,1977,New,Australian designation Leopard-1 AVLB,1,5,5
+Australia,United States,1976,,100,?,Harpoon Block-1,anti-ship missile,100,?,1981; 1982; 1983; 1984; 1985,New,Incl RGM-84 version for Perry (Adelaide) frigates and AGM-84A version for P-3C anti-submarine aircraft,0.9,90,90
+Australia,United States,1976,,16,,S-2E Tracker,anti-submarine aircraft,16,,1977; 1978,Second hand,Second-hand; $9 m deal; S-2G version,3,48,48
+Australia,United States,1975,,10,,P-3C Orion Update-2,anti-submarine aircraft,10,,1977; 1978; 1979,New,$229 m deal,50,500,500
+Australia,Germany,1975,,6,,BPz-2,armoured recovery vehicle,6,,1977,New,Australian designation Leopard AS-1 ARV Medium,1.4,8.4,8.4
+Australia,United States,1976,,2,,Perry,frigate,2,,1980; 1981,New,Deal worth AUD923 m for total of 4 ordered 1976; 1977 and 1980; Australian designation Adelaide,300,600,600
+Australia,United States,1973,,200,?,RIM-66B Standard-1MR,SAM,200,?,1974; 1975; 1976; 1977; 1978,New,For modernized Adams (Perth) destroyers,0.25,50,50
+Australia,Germany,1975,,42,,Leopard-1A3,tank,42,?,1976; 1977,New,Leopard AS-1 version,2.5,105,105
+Australia,United States,1976,,12,,C-130H Hercules,transport aircraft,12,,1978,New,Deal worth $115 m,28,336,336
+Australia,United Kingdom,1975,,20,,Rapier,SAM system,20,?,1978; 1979; 1980; 1981,New,$44 deal m (offsets 30%),7,140,140
+Australia,United States,1980,,1,,Perry,frigate,1,,1984,New,Deal worth $164 m (AUD923 m for total of 4 ordered 1976; 1977 and 1980); Australian designation Adelaide,300,300,300
+Australia,United Kingdom,1950,?,99,,Meteor,fighter aircraft,99,?,1950; 1951,New,For use in Korean War; Meteor F-8 version; incl 6 Meteor T-7 trainer version,3,297,297
+Australia,United Kingdom,1949,?,24,?,Sea Fury,fighter aircraft,24,?,1950,New,For use on aircraft carriers,2,48,48
+Australia,United Kingdom,1950,?,1,,Bristol-170 Freighter,transport aircraft,1,,1951,New,Second-hand (but not more then few years old),4.38,4.38,4.38
+Australia,United States,1980,,36,,M-198 155mm,towed gun,36,?,1983; 1984,New,,0.85,30.6,30.6
+Australia,New Zealand,1980,,14,,CT-4 Airtrainer,(armed) trainer aircraft,14,?,1981; 1982,New,AUD2.3 m deal; originally ordered by Rhodesia but embargoed,0.15,2.1,2.1
+Australia,United States,1982,,10,,P-3C Orion Update-2.5,anti-submarine aircraft,10,?,1984; 1985; 1986,New,$366 m deal (partly paid with 9 Second-hand P-3B ASW aircraft),55,550,550
+Australia,France,1981,,550,?,R-550 Magic-1,short-range air-to-air missile,550,?,1982; 1983,New,$14 m deal,0.09,49.5,49.5
+Australia,United Kingdom,1980,,2,,Sea King HAS-5,anti-submarine helicopter,2,,1983,New,Sea King Mk-50A version,15,30,30
+Australia,United States,1976,,200,?,RIM-66B Standard-1MR,SAM,200,?,1980; 1981; 1982; 1983; 1984,New,For Perry (Adelaide) frigates,0.25,50,50
+Australia,Canada,1983,,2,,Boeing-707,transport aircraft,2,,1983,Second hand,Second-hand; $8 m deal,17.8,35.6,35.6
+Australia,France,1983,?,120,?,MILAN,anti-tank missile,120,?,1985,New,AUD6 m deal  (incl 12 launchers),0.01,1.2,1.2
+Australia,United States,1983,?,450,?,AIM-9L Sidewinder,short-range air-to-air missile,450,?,1983; 1984; 1985; 1986; 1987; 1988; 1989; 1990,New,For F/A-18 combat aircraft,0.11,49.5,49.5
+Australia,United States,1977,,1,,Perry,frigate,1,,1983,New,Deal worth AUD923 m for total of 4 ordered 1976; 1977 and 1980; Australian designation Adelaide,300,300,300
+Australia,United States,1984,,300,?,AIM-7M Sparrow,long-range air-to-air missile,300,?,1988; 1989,New,$20 m deal; for F/A-18 combat aircraft,0.18,54,54
+Australia,United Kingdom,1972,,10,,Sea King HAS-1,anti-submarine helicopter,10,?,1974; 1975,New,Sea King Mk-50 version; for use on aircraft carrier,10,100,100
+Australia,United States,1957,?,12,,C-130B Hercules,transport aircraft,12,,1958; 1959,New,C-130A version,23,276,276
+Australia,Canada,1953,?,2,,DHC-3 Otter,light transport aircraft,2,?,1953,New,,0.8,1.6,1.6
+Australia,United States,1958,?,11,,Bell-47/OH-13,light helicopter,11,?,1959; 1960; 1961,New,,0.24,2.64,2.64
+Australia,United States,1966,,14,,S-2E Tracker,anti-submarine aircraft,14,,1966; 1967,New,Part of deal worth AUD46 m; for use on aircraft carrier,7.5,105,105
+Australia,United States,1966,,10,,A-4E Skyhawk,FGA aircraft,10,,1967; 1968,New,Part of  AUD46 m deal; A-4G version; incl 2 TA-4G; for use on aircraft carrier,9,90,90
+Australia,United Kingdom,1965,,8,,HS-748,transport aircraft,8,,1968; 1969,New,For training; HS-748-228 version,8.5,68,68
+Australia,Switzerland,1967,,19,,PC-6 Porter,light transport aircraft,19,,1968; 1969; 1971,New,,0.45,8.55,8.55
+Australia,United Kingdom,1971,?,2,,HS-748,transport aircraft,2,,1973,New,For training; HS-748-268 version,8.5,17,17
+Australia,United States,1965,?,8,,Bell-205A,helicopter,8,,1966; 1967,New,,2.2,17.6,17.6
+Australia,United States,1965,?,10,,Cessna-180 Skywagon,light aircraft,10,?,1966,New,,0.18,1.8,1.8
+Australia,United States,1964,?,12,,C-130E Hercules,transport aircraft,12,,1966,New,,24,288,288
+Australia,United Kingdom,1951,?,2,?,Sycamore,light helicopter,2,?,1954,New,,0.5,1,1
+Australia,Canada,1968,?,4,,DHC-4 Caribou,transport aircraft,4,?,1968; 1969; 1971,New,,3.75,15,15
+Australia,United States,1963,,24,,F-111C,bomber aircraft,24,,1973; 1974,New,AUD112 m deal; delivery delayed until 1973 due to technical problems with aircraft,50,1200,1200
+Australia,United States,1972,,12,,CH-47C Chinook,transport helicopter,12,,1974,New,,15,180,180
+Australia,United States,1969,,11,,Bell-205A-1,helicopter,11,,1969; 1970; 1971; 1973,New,,2.62,28.82,28.82
+Australia,France,1970,,6,,Mirage-3E,FGA aircraft,6,,1973; 1974,New,AUD11 m deal; Mirage-3OD trainer/combat version; produced under licence in Australia,12,72,72
+Australia,United States,1958,?,9,,Cessna-180 Skywagon,light aircraft,9,,1959,New,,0.18,1.62,1.62
+Australia,United States,1964,,10,,P-3B Orion,anti-submarine aircraft,10,,1969,New,,30,300,300
+Australia,United Kingdom,1959,?,30,?,Bloodhound-1,SAM,30,?,1962; 1963,New,,0.35,10.5,10.5
+Australia,France,1962,?,100,?,R-530,short-range air-to-air missile,100,?,1964; 1965; 1966; 1967; 1968,New,For Mirage-3OF combat aircraft,0.1,10,10
+Australia,United Kingdom,1963,?,50,?,Seacat,SAM,50,?,1964; 1965; 1966,New,For River (Rothesay) frigates,0.04,2,2
+Australia,United States,1969,?,144,,AIM-7C Sparrow,short-range air-to-air missile,144,,1970,New,For F-4E combat aircraft leased from USA,0.1,14.4,14.4
+Australia,United States,1968,?,260,?,Redeye,portable SAM,260,?,1969; 1970,New,,0.04,10.4,10.4
+Australia,United Kingdom,1955,?,265,?,Ferret,armoured reconnaissance vehicle,265,?,1956; 1957,New,,0.12,31.8,31.8
+Australia,United States,1962,?,200,?,RIM-24 Tartar,SAM,200,?,1965; 1966; 1967,New,For Adams destroyers,0.12,24,24
+Australia,France,1962,?,500,?,ENTAC,anti-tank missile,500,?,1963; 1964,New,,0.01,5,5
+Australia,United States,1961,,24,,Bell-204B,helicopter,24,,1962; 1963; 1964,New,Incl for SAR,2.1,50.4,50.4
+Australia,United Kingdom,1949,,1,,Mod. Majestic,aircraft carrier,1,,1955,New,AUP8.3 m deal; originally ordered for UK in WW-2; but cancelled and completed for Australia; Australian designation Melbourne,400,400,400
+Australia,United States,1962,,2,,Adams,destroyer,2,,1965,New,AUD80 m deal,275,550,550
+Australia,United Kingdom,1969,?,25,?,Seacat,SAM,25,?,1970; 1971,New,For River frigates,0.04,1,1
+Australia,United Kingdom,1961,,6,,Ton,minesweeper,6,,1962,Second hand but modernized,Second-hand but modernized before delivery,7.59,45.54,45.54
+Australia,United States,1965,?,3,?,TPS-43,air-search radar,3,?,1967; 1968; 1969,New,Part of 'Hub Cap' air surveillance network,9,27,27
+Australia,United States,1984,?,6,,TPS-25,ground-surveillance radar,6,?,1985,New,,0.95,5.7,5.7
+Australia,Italy,1986,,10,?,HSS-1,air-search radar,10,?,1988; 1989; 1990; 1991; 1992,New,AUD20 m deal,1.19,11.9,11.9
+Australia,United States,1987,?,100,?,RIM-66B Standard-1MR,SAM,100,?,1993; 1994; 1995; 1996,New,$50 m deal; for Perry (Adelaide) frigates,0.25,25,25
+Australia,United States,1987,,28,,Harpoon Block-1,anti-ship missile,28,?,1992; 1993,New,,0.9,25.2,25.2
+Australia,United States,1988,,2,,Boeing-707,transport aircraft,2,,1988,Second hand but modernized,Second-hand but modernized before delivery; $18 m dea,29.37,58.74,58.74
+Australia,South Africa,1989,,1,,Buffel,armoured personnel carrier,1,,1989,New,For use with Australian UN forces in Namibia,0.15,0.15,0.15
+Australia,Sweden,1991,,8,,Sea Giraffe-150,air-search radar,8,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006,New,For 8 MEKO-200 (Anzac) frigates from Germany,5,40,40
+Australia,Israel,1988,,4,,air refuel system,air refuel system,4,?,1991; 1992,New,For $31 m modification of 4 Boeing-707 transport aircraft to tanker/transport aircraft,10,40,40
+Australia,United States,1991,?,32,?,AIM-7P Sparrow,long-range air-to-air missile,32,?,1996; 1997; 1998; 1999,New,For MEKO-200 (Anzac) frigates; RIM-7P Sea Sparrow (SAM) version,0.2,6.4,6.4
+Australia,Sweden,1991,?,8,,CEROS-200,fire-control radar,8,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006,New,For 8 MEKO-200 (Anzac) frigates from Germany; incl for use with Sea Sparrow SAM system,2.5,20,20
+Australia,United States,1993,,15,,FB-111A,bomber aircraft,15,,1993; 1994,Second hand,Second-hand; $146 m deal (incl $53 m for aircraft and $65 m for spares; support and minor modifications); F-111G version,20,300,300
+Australia,United States,1994,,3,,P-3B Orion,anti-submarine aircraft,3,,1995; 1997; 1999,Second hand,Second-hand; $7 m 'Project Air-5276 Phase-2B' (incl 1 more for spare parts); delivered without ASW equipment; modified in Australia to TAP-3 for training,12,36,36
+Australia,United Kingdom,1966,,3,,Ham,minesweeper,3,?,1966; 1967,Second hand,Second-hand,2.4,7.2,7.2
+Australia,United Kingdom,1977,,10,,Blindfire,fire-control radar,10,?,1979; 1980; 1981,New,Deal worth $20 m; for use with Rapier SAM system,2.5,25,25
+Australia,United States,1971,,10,,A-4E Skyhawk,FGA aircraft,10,,1971,New,A-4G version; incl 2 TA-4G; for use on aircraft carrier,9,90,90
+Australia,United States,1963,,1,,Adams,destroyer,1,,1967,New,AUD50 m deal,275,275,275
+Australia,Netherlands,1963,?,2,,WM-20,fire-control radar,2,,1969,New,For 2 Leander (River) frigates from United Kingdom; WM-22 version,6,12,12
+Australia,Netherlands,1963,?,2,,LW-02,air-search radar,2,,1969,New,For 2 Leander (River) frigates from United Kingdom,7,14,14
+Australia,Netherlands,1957,?,4,,LW-02,air-search radar,4,,1963; 1964; 1965,New,For 4 Rothesay (River) frigates from United Kingdom,7,28,28
+Australia,United States,1977,?,3,,TPS-43,air-search radar,3,?,1982,New,For 'Recap' improvement programme of 'Hub Cap' air surveillance network,9,27,27
+Australia,United States,1963,?,200,?,AIM-9B Sidewinder,short-range air-to-air missile,200,?,1964,New,For Mirage-3O combat aircraft,0.04,8,8
+Australia,United States,1989,?,9,,Mk-15 Phalanx,naval gun,9,?,1990; 1991; 1992; 1993; 1994,New,For frigates; destroyers; amphibious assault ships and support ships,7,63,63
+Australia,United Kingdom,1953,,36,,Gannet,anti-submarine aircraft,36,?,1955; 1956; 1957; 1958,New,Gannet AS-1 version; incl for use on aircraft carrier,6.5,234,234
+Australia,United Kingdom,1951,,39,?,Venom NF-2,fighter aircraft,39,?,1955; 1956,New,Sea Venom FAW-53 version; incl for use on aircraft-carrier,3.75,146.25,146.25
+Australia,United States,1993,,8,,SPS-49,air-search radar,8,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006,New,For 8 MEKO-200 (Anzac) frigates from FRG; AN/SPS-49V(8) version,5,40,40
+Australia,United States,1961,?,12,,P-2H Neptune,anti-submarine aircraft,12,,1962,New,,15,180,180
+Australia,Netherlands,1967,?,1,,LW-02,air-search radar,1,,1968,New,For modernization of 1 Majestic (Melbourne) aircraft carrier,7,7,7
+Australia,Netherlands,1969,?,4,,WM-20,fire-control radar,4,?,1971; 1973,New,For modernization of 2 Daring (Vampire) destroyers; WM-22 version,6,24,24
+Australia,Netherlands,1969,?,2,,LW-02,air-search radar,2,?,1971; 1973,New,For modernization of 2 Daring (Vampire) destroyers,7,14,14
+Australia,United States,1995,,12,,Harpoon Block-1,anti-ship missile,12,?,2000; 2001,New,$38 m deal,0.9,10.8,10.8
+Australia,United Kingdom,1950,,4,,102mm Mk-20,naval gun,4,?,1954; 1955; 1956; 1957,Second hand but modernized,Probably second-hand but modernized before delivery; for modernization of 4 Q destroyers,0.83,3.3,3.3
+Australia,United Kingdom,1952,?,2,,B-29 Superfortress,bomber aircraft,2,,1952,Second hand,Second-hand,3.6,7.2,7.2
+Australia,United States,1974,?,6,,Mk-42-9 127mm,naval gun,6,?,1975; 1978; 1979,New,Mk-42 Mod-10 version for modernization of 3 Adams (Perth) destroyers,4.75,28.5,28.5
+Australia,United States,1989,?,8,,Mk-45 127mm,naval gun,8,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006,New,For 8 MEKO-200 (Anzac) frigates from Germany; Mk-45 Mod-2 version,5.25,42,42
+Australia,United States,1998,,51,,Popeye,air-to-surface missile,51,?,2001; 2002; 2003; 2004,New,AUD90 m 'Project Air-5398'; AGM-142E version; for F-111C/G combat aircraft,0.9,45.9,45.9
+Australia,Canada,1995,,14,,Piranha-2,infantry fighting vehicle,14,?,1996,New,'Project Land-112 Phase-2' or 'ASLAV programme Phase-2'; LAV-25 version; Australian designation ASLAV-25,0.27,3.78,3.78
+Australia,United States,1967,,23,,Bell-205A-1,helicopter,23,,1968; 1970,New,,2.62,60.26,60.26
+Australia,United States,1963,?,7,,Bell-204B,helicopter,7,?,1964; 1965; 1966,New,,2.1,14.7,14.7
+Australia,United Kingdom,1958,?,18,?,Saladin,armoured car,18,?,1960,New,,0.7,12.6,12.6
+Australia,United Kingdom,1958,?,20,?,Saracen,armoured personnel carrier,20,?,1959; 1960,New,,0.2,4,4
+Australia,United Kingdom,1996,,1,,Sea King HAS-5,anti-submarine helicopter,1,,1996,Second hand,ASW equipment probably removed before transfer,6,6,6
+Australia,United Kingdom,1998,,400,?,ASRAAM,long-range air-to-air missile,400,?,2000; 2001; 2002; 2003; 2004,New,$62 m deal (total costs for missiles and integration AUD488 m ($353 m)); for F/A-18 combat aircraft; delivered from 2000 but only operational from 2004,0.18,72,72
+Australia,United States,1998,,2,,CH-47D Chinook,transport helicopter,2,,2001,New,$45 m deal,18,36,36
+Australia,United Kingdom,1953,?,1,,Tide,replenishment ship,1,,1962,Second hand,Australian designation Supply Class; built for Australia; but after completion in 1955 on loan to UK till 1962,50,50,50
+Australia,France,1980,?,15,?,DRPT-5 RASIT,ground surveillance radar,15,?,1981,New,,0.1,1.5,1.5
+Australia,United States,1994,,50,?,Mk-46 Mod-5 NEARTIP,anti-submarine torpedo,50,?,1995; 1996,New,No. could be up to 100,0.35,17.5,17.5
+Australia,France,1963,,3,,SA-316B Alouette-3,light helicopter,3,,1964,New,,0.9,2.7,2.7
+Australia,United States,1950,,2,,H-5,light helicopter,2,,1951,New,,0.3,0.6,0.6
+Australia,United States,2000,?,250,?,AIM-120B AMRAAM,long-range air-to-air missile,250,?,2001; 2002; 2003; 2004; 2005; 2006,New,'Project Air-5400'; for F/A-18A combat aircraft,0.4,100,100
+Australia,United Kingdom,1959,?,1,?,Bloodhound-1,SAM system,1,?,1962,New,,30,30,30
+Australia,United States,2001,?,70,?,Popeye,air-to-surface missile,70,?,2005; 2006; 2007; 2008,New,,0.9,63,63
+Australia,United States,1998,?,1,,King Air,light transport aircraft,1,,1999,New,king Air-350 version; for testing of ground surveillance systems,2.85,2.85,2.85
+Australia,United Kingdom,1955,?,2,,Canberra B-2,bomber aircraft,2,,1956,New,Canberra T-4 trainer version,8.5,17,17
+Australia,Canada,1955,?,5,,DHC-2 Beaver,light transport aircraft,5,?,1955; 1957; 1960; 1961,New,,0.38,1.9,1.9
+Australia,United States,1975,?,100,?,Mk-48,anti-ship/anti-submarine torpedo,100,?,1977; 1978; 1979; 1980,New,For Oberon submarines,1.25,125,125
+Australia,New Zealand,1968,,1,,Centurion ARV,armoured recovery vehicle,1,,1968,Second hand,Second-hand; Centurion-1 version; 7 more Centurion-5 tanks delivered for spares only,0.54,0.54,0.54
+Australia,Israel,1995,,18,,EL/M-2022,maritime patrol aircraft radar,18,?,2002; 2003; 2004; 2005,New,Part of $372-495 m 'Project Air-5276' for modernization of 18 P-3C anti-submarine aircraft to AP-3C Sea Sentinel version,2.5,45,45
+Australia,United States,2000,,71,,APG-73,combat aircraft radar,71,?,2002; 2003,New,AUD250 m deal; for modernization of 71 F/A-18 FGA aircraft,2,142,142
+Australia,United States,2003,,676,?,FGM-148 Javelin,anti-tank missile,676,?,2005; 2006; 2007,New,AUD180 m ($100-110 m) 'Project Land-40-1',0.03,20.28,20.28
+Australia,United Kingdom,2001,,20,,Rapier,SAM system,20,?,2002,Second hand but modernized,Second-hand; $8 m 'Project Land-140'; modernized to Rapier B-1M before delivery,4.62,92.4,92.4
+Australia,United Kingdom,1973,?,5,?,Cymbeline,artillery locating radar,5,?,1974,New,,2.38,11.9,11.9
+Australia,United Kingdom,1950,,2,,Squid,anti-submarine mortar,2,,1953,New,For modification of 1 Quilliam (Quadrant) destroyer to Type-15 frigate,1.5,3,3
+Australia,United Kingdom,1950,,6,,AS-Mk-10 Limbo,anti-submarine mortar,6,,1954; 1955; 1957,New,For modification of 3 Quilliam (Quadrant) destroyers to Type-15 frigates,5,30,30
+Australia,United States,1974,?,200,?,Mk-46,anti-submarine torpedo,200,?,1975; 1976; 1977; 1978,New,Incl for P-3 ASW/MP aircraft and surface combat ships,0.25,50,50
+Australia,United States,2001,,10,?,FGM-148 Javelin,anti-tank missile,10,?,2001,New,For use by Australian forces in Afghanistan,0.03,0.3,0.3
+Australia,United States,2003,,5,,PSTAR-ER,air-search radar,5,?,2004; 2005; 2006,New,Part of AUD110 m ($73 m) 'Project Land-19 Phase-6'; for use with RBS-70 MANPADS,0.75,3.75,3.75
+Australia,United States,1964,?,200,?,Mk-44,anti-submarine torpedo,200,?,1965; 1966; 1967; 1968; 1969; 1970; 1971; 1972,New,Incl for Ikara anti-submarine missile produced in Australia,0.15,30,30
+Australia,United States,2004,,7,,M-88A2 HERCULES,armoured recovery vehicle,7,,2006; 2007,New,Part of AUD530-550 m ($420-475 m) 'Project Land-907',2,14,14
+Australia,United States,1989,?,8,,LM-2500,gas turbine,8,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006,New,For 8 MEKO-200 (Anzac) frigates from Germany,7,56,56
+Australia,United States,2022,,48,?,RQ-21 Blackjack,UAV,24,?,2024,New,AUS307 m ($223 m) 'Land-129 Phase-2' programme; Integrator version; produced under licence in Australia,0.07,3.36,1.68
+Australia,United States,2021,?,75,,M-1A2 SEPv-3 Abrams,tank,46,,2024,New,Part of AUD3.5 b ($2.5 b) deal (incl 52 armoured support vehicles),5.2,390,239.2
+Australia,United States,2021,?,17,,M-1074 JABS,armoured bridgelayer,0,,,New,Part of AUD3.5 b ($2.5 b) deal,1.25,21.25,0
+Australia,United States,2021,?,29,,M-1150 ABV,armoured engineer vehicle,0,,,New,Part of AUD3.5 b ($2.5 b) deal,2.5,72.5,0
+Australia,United States,2021,?,6,,M-88A2 HERCULES,armoured recovery vehicle,0,,,New,Part of AUD3.5 b ($2.5 b) deal,2,12,0
+Australia,United States,2016,?,80,,Standard Missile-2MR,SAM,80,?,2020; 2021; 2022; 2023,New,SM-2 Block-3B version; probably for Hobart destroyers,0.3,24,24
+Australia,United States,2018,?,,,ESSM Block-2,SAM,50,?,2022; 2023,New,Incl production of components in Australia (as part of NATO Sea Sparrow Consortium),0.6,0,30
+Australia,United States,2012,,200,?,Mk-54 LWT,anti-submarine torpedo,200,?,2013; 2014; 2015; 2016,New,For MH-60R anti-submarine helicopters,0.5,100,100
+Australia,United States,2021,,2,,P-8A Poseidon,anti-submarine aircraft,0,,,New,Incl production of components in Australia; delivery planned 2025,125,250,0
+Australia,United States,2017,?,25,?,Harpoon Block-2,anti-ship/land-attack missile,25,?,2018; 2019; 2020; 2021; 2022,New,,1,25,25
+Australia,United States,2014,?,169,,AIM-9X Sidewinder,long-range air-to-air missile,169,?,2019; 2020; 2021; 2022,New,For F-35A combat aircraft,0.18,30.42,30.42
+Australia,Norway,2022,,,,NSM,anti-ship missile,5,?,2024,New,NSM Block-1A; for Hobart destroyers and ANZAC frigates,1,0,5
+Australia,United States,2018,,10,?,AGM-88E AARGM,anti-radar missile,10,?,2020; 2022,New,,0.6,6,6
+Australia,France,1989,,12,,TSM-2633 Spherion-B,anti-submarine sonar,12,,1996; 1998; 2001; 2002; 2003; 2004; 2005; 2006; 2007; 2008; 2009,New,Spherion-B Mod-5 version for modernization of 4 Perry (Adelaide) and for 8 MEKO-200 (Anzac) frigates from Germany,5,60,60
+Australia,France,1987,?,6,,Scylla,submarine sonar,6,,1996; 1998; 1999; 2001; 2003,New,For 6 Collins submarines from Sweden,15,90,90
+Australia,Canada,1986,,67,?,aircraft engine,aircraft engine,67,?,1987; 1988; 1989; 1990; 1991,New,Pratt & Whitney Canada PT-6A-6C (950hp) turboprop engine for 67 PC-9 trainer aircraft from Switzerland,0.35,23.45,23.45
+Australia,United States,1996,,20,,Mk-48,anti-ship/anti-submarine torpedo,20,?,1996; 1997,New,Second-hand; $1.8 m deal; Mk-48 Mod-4 version,1.25,25,25
+Australia,United States,1998,,5,,Mk-48,anti-ship/anti-submarine torpedo,5,,1999,New,Second-hand; $0.4 m deal; Mk-48 Mod-4 version,1.25,6.25,6.25
+Australia,United States,1999,?,299,?,vehicle engine,vehicle engine,299,?,2005; 2006; 2007,New,Caterpillar-3126 ATTAC (300hp) diesel engine for 299 Bushmaster armoured personnel carriers produced in Australia,0.03,8.97,8.97
+Australia,United States,2019,?,108,?,AIM-120C AMRAAM,long-range air-to-air missile,108,?,2023; 2024,New,For NASAMS-2 SAM systems; AIM-120C-7 version,0.6,64.8,64.8
+Australia,South Korea,2021,,30,,K-9 Thunder 155mm,self-propelled gun,0,,,New,AUD1 b ($667 m) 'Land-8116' Phase-1 programme; incl 28 produced under licence in Australia; Australian designation AS-9 Huntsman; delivery planned 2025-2027,4.5,135,0
+Australia,South Korea,2021,,15,,K-10,armoured supply vehicle,0,,,New,Part of AUD1 b ($667 m) 'Land-8116' Phase-1 programme; inl 14 produced under licence in Australia; Australian designation AS-10 Huntsman; delivery planned 2025-2027,0.55,8.25,0
+Australia,United States,2022,,16,,APG-78 Longbow,combat helicopter radar,0,,,New,For AH-64E combat helicopters,3,48,0
+Australia,Spain,2007,,3,,Hobart,destroyer,3,,2017; 2018; 2020,New,AUD8.5-9.7 b ($7.2-8.2 b) 'Project Sea-4000' or 'Air Warfare Destroyer'; produced under licence in Australia,499,1497,1497
+Australia,Norway,2019,,6,,NASAMS-2,SAM system,4,?,2023; 2024,New,AUD2.5 b ($1.6 b) 'Land-19 Phase-7B' ('Joint Project-117' or 'GBADWS') project; incl production of components in Australia,15,90,60
+Australia,Germany,2018,,6,,OPV-80,patrol ship,0,,,New,'Sea-1180 Phase-1' programme; produced under licence in Australia; Australian designation Arafura; delivery planned from 2025,36,216,0
+Australia,France,2004,,5,,A-330 MRTT,tanker/transport aircraft,5,?,2011; 2012,New,AUD1.4 b ($1.1 b) 'Project Air-5402'; delivered via Spain; incl 4 assembled in Australia; Australian designation KC-30A,98,490,490
+Australia,United States,2004,?,10,,CF6,turbofan,10,,2011; 2012,New,For 5 A-330 MRTT tanker/transport aircraft from France,6,60,60
+Australia,United States,2018,?,450,?,AIM-120D AMRAAM,long-range air-to-air missile,275,?,2019; 2020; 2021; 2022; 2023; 2024,New,For F-35A combat aircraft,0.8,360,220
+Australia,United States,2022,?,15,,AGM-88E AARGM,anti-radar missile,0,,,New,,0.6,9,0
+Australia,Netherlands,2014,,1,,Sycamore,training ship,1,,2017,New,For Australian company for training of Australian military; from Vietnamese production line,45,45,45
+Australia,United States,2024,?,,,SM-6,SAM/ABM,0,,,New,For Hobart destroyers and Hunter frigates; selected but not yet ordered by end-2024,0,0,0
+Australia,United States,2023,?,255,?,FGM-148 Javelin,anti-tank missile,0,,,New,FGM-148F version; possibly selected 2023 but not yet ordered by end-2024,0.03,7.65,0
+Australia,Germany,2018,,78,,Boxer,armoured personnel carrier,18,?,2022; 2024,New,Part of AUD5.2 b ($3.5 b) 'Project Land-400 Phase-2' deal; incl production under licence of 66 in Australia; incl ambulance; command post; recovery and engineer versions; delivery planned 2022-2026,0.55,42.9,9.9
+Australia,Germany,2018,,133,,Boxer,infantry fighting vehicle,22,?,2022; 2024,New,Part of AUD5.2 b ($3.5 b) 'Project Land-400 Phase-2' deal; incl production under licence of 120 in Australia; delivery planned 2022-2029,1.1,146.3,24.2
+Australia,France,2006,,35,,NH-90 TTH,transport helicopter,35,?,2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018,New,AUD2 b ($1.5 b) 'Project Air-9000 Phase-3' or 'Project Air-9000 Phase-4' (incl 10 year support); assembled/produced under licence in Australia; MRH-90 version,7,245,245
+Australia,United States,2023,?,220,?,BGM-109 Tomahawk,surface-to-surface missile,0,,,New,AUD1.3 b deal; incl 20 Tomahawk Block-4 and 200 Tomahawk Block-5 versions; for Hobart destroyers and probably for Hunter frigates and Virginia submarines,1,220,0
+Australia,United States,2015,,2,,G-550 SIGINT,signals intelligence aircraft,0,,,New,Part of $1.6 b 'Project Air-555'; Australian designation MC-55A Peregrine,0,0,0
+Australia,Switzerland,2015,,49,,PC-21,trainer aircraft,49,?,2017; 2018; 2019,New,AUD1.2 b ($900 m) 'Air-5428' programme for 7 years lease; owned and operated by civilian company for 'Pilot Training System' for training of Australian military,5,245,245
+Australia,United States,2023,?,2,,Virginia,nuclear submarine,0,,,Second hand,Second-hand; part of 'AUKUS' agreement; Virginia Block-4 version; delivery planned 2032-2035; selected 2023 but not ordered by end-2024,0,0,0
+Australia,United States,2013,?,600,?,AGM-114 Hellfire-2,anti-tank/air-to-surface missile,600,?,2014; 2015; 2016,New,For MH-60R helicopters; for anti-ship role,0.05,30,30
+Australia,United States,2009,?,72,,F-35A Lightning-2,FGA aircraft,72,,2014; 2018; 2019; 2020; 2021; 2022; 2023; 2024,New,AUD16.5 b ($13.5 b) 'Project Air-6000' (incl production of components in Australia),55,3960,3960
+Australia,United States,2014,,12,,P-8A Poseidon,anti-submarine aircraft,12,,2016; 2017; 2018; 2019; 2020,New,Incl production of components in Australia,125,1500,1500
+Australia,Canada,2018,,3,,AW139,helicopter,3,,2019,Second hand,Second-hand; for Australian company for lease for SAR to Australian air force,2.4,7.2,7.2
+Australia,Canada,2017,,3,,Alpha Jet,trainer/combat aircraft,3,,2017,Second hand,Second-hand; 2-year lease; owned and operated by Canadian company for training of Australian armed forces,3.6,10.8,10.8
+Australia,France,2015,,2,,air refuel system,air refuel system,2,,2018; 2019,New,For modification of 2 A330 transport aircraft to A330 MRTT tanker/transport aircraft,10,20,20
+Australia,Germany,2014,,15,,EC135,light helicopter,15,?,2015; 2016; 2017,New,H135T2+ (EC135T2+) version; ; owned and operated by civilian company for 'HATS' programme for training of Australian military,2.25,33.75,33.75
+Australia,Germany,2015,,9,,ASR-NG,air-search radar,2,?,2020; 2024,New,EUR130 m 'Project Air-5431 Phase-2'; incl for civilian air traffic control; delivery planned 2023-2025,9,81,18
+Australia,Canada,2015,?,49,?,aircraft engine,aircraft engine,49,?,2017; 2018; 2019,New,Pratt & Whitney Canada PT-6A-68B (1600hp) turboprop engine for 49 PC-21 trainer aircraft from Switzerland,0.5,24.5,24.5
+Australia,United States,2015,?,1,,Bell-429 GlobalRanger,light helicopter,1,,2016,New,For training,2.8,2.8,2.8
+Australia,United States,2007,?,50,?,AGM-154 JSOW,guided glide bomb,50,?,2009; 2010; 2011; 2012; 2014; 2015; 2016,New,AGM-154C and AGM-154C-1 versions,0.4,20,20
+Australia,United States,2016,,500,?,WGU-59 APKWS,air-to-surface missile,500,?,2018,New,For Tiger combat helicopter,0.01,5,5
+Australia,United States,2008,,3,,SPY-1F,air-search radar,3,,2017; 2018; 2020,New,For 3 Hobart destroyers from Spain,20,60,60
+Australia,United States,2007,?,3,,Type-2150,anti-submarine sonar,3,,2017; 2018; 2020,New,For 3 Hobart destroyers from Spain,30,90,90
+Australia,United States,2009,,3,,SPQ-9,fire-control radar,3,,2017; 2018; 2020,New,For 3 Hobart destroyers from Spain,3.5,10.5,10.5
+Australia,United States,2015,?,100,?,Mk-54 LWT,anti-submarine torpedo,100,?,2016; 2017; 2018; 2019,New,For P-8 anti-submarine aircraft,0.5,50,50
+Australia,United States,2013,?,110,,AIM-120C AMRAAM,long-range air-to-air missile,110,?,2015; 2016,New,$202 m deal; AIM-120C-7 version,0.6,66,66
+Australia,United States,2006,,3,,Mk-41 VLS,naval SAM system,3,,2017; 2018; 2020,New,For 3 Hobart destroyers from Spain,20,60,60
+Australia,Denmark,2018,,6,,Scanter-6000,air/sea-search radar,0,,,New,Scanter-6002 version; for 6 OPV-80 (Arafura) patrol ships from Germany,4.75,28.5,0
+Australia,United States,2020,?,6,?,MQ-4C Triton,UAV,1,,2024,New,Part of AUD3-4 b 'Project JP-2062' or 'Air-7000 Phase-1B'; MQ-4CN version; delivery planned 2024-2025,35,210,35
+Australia,United States,1982,,100,?,Harpoon Block-1,anti-ship missile,100,?,1984; 1985; 1986,New,Incl AGM-84A version for P-3C anti-submarine aircraft and F-111 and F/A-18 combat aircraft and UGM-84 version for Oberon submarines,0.9,90,90
+Australia,United States,2023,,10,?,ATACMS Block-1A,surface-to-surface missile,0,,,New,For use with HIMARS multiple rocket launchers,2,20,0
+Australia,United States,2007,?,100,?,ESSM,SAM,100,?,2017; 2018,New,For Hobart destroyers; incl production of components in Australia (as part of NATO Sea Sparrow Consortium),0.4,40,40
+Australia,United States,2011,,24,,MH-60R Seahawk,anti-submarine helicopter,24,,2013; 2014; 2015; 2016,New,AUD2.6 b ($2.5 b) 'Project Air-9000 Phase-8' ($1.5 b offsets),16.5,396,396
+Australia,United States,2022,,29,,AH-64E Apache,combat helicopter,0,,,New,'Land-4503 ARC' programme; delivery planned from 2025,15,435,0
+Australia,United States,1963,,714,?,M-113,armoured personnel carrier,714,?,1964; 1965; 1966; 1967; 1968; 1969; 1970; 1971; 1972; 1973; 1974; 1975; 1976; 1977; 1978; 1979,New,M-113A1 version; incl M-577A1 command post; M-125A1 81mm mortar carrier; recovery and other versions,0.25,178.5,178.5
+Australia,United States,1995,,12,,C-130J Hercules,transport aircraft,12,,1999; 2000,New,$466-670 m'Project Air-5216'; C-130J-30 version; option on 12 more not used,40,480,480
+Australia,United States,2023,?,20,,C-130J Hercules,transport aircraft,0,,,New,AUD9.8b ($6.6 b) 'Project Air-7404 Phase-1' deal; C-130J-30 version; delivery planned from 2027,40,800,0
+Australia,United States,1959,?,600,?,AIM-9B Sidewinder,short-range air-to-air missile,600,?,1960; 1961,New,For F-86F (CA-27) combat aircraft,0.04,24,24
+Australia,Netherlands,2024,,8,,LST-100,landing ship,0,,,New,'LCH' project; produced under licence in Australia; delivery planned from 2026,17.5,140,0
+Australia,United States,2022,?,1,,EA-18G Growler,FGA/electronic warfare aircraft,1,,2023,Second hand,Probably second-hand,24,24,24
+Australia,Spain,2016,,2,,Cantabria,replenishment ship,2,,2021,New,AUD642 m ($490 m) 'Project Sea-1654 Phase-3'; Australian designation Supply,124,248,248
+Australia,United States,2022,?,40,,S-70 Black Hawk,transport helicopter,10,,2023; 2024,New,AUD2.8 b ($2 b) deal; UH-60M version; delivery planned 2023-2025,7.25,290,72.5
+Australia,Germany,2007,?,4,,ship engine,ship engine,4,,2014; 2015,New,MAN 32/40-16V (10540hp) diesel engine for 2 BPE (Canberra) amphibious assault ships from Spain,3,12,12
+Australia,Germany,2016,?,4,,ship engine,ship engine,4,?,2021,New,MAN 18V32/40 diesel engine for 2 Cantabria (Supply) replenishment ships from Spain; from production line in Spain,3,12,12
+Australia,United States,2022,,42,,HIMARS,multiple rocket launcher,0,,,New,Delivery planned from 2026,1.1,46.2,0
+Australia,United States,1992,,97,?,vehicle engine,vehicle engine,97,?,1994; 1995; 1996,New,Detriot Diesel 6V53T (275hp) diesel engine for 97 Piranha-2 (LAV-25 or ASLAV) infantry fighting vehicles and armoured personnel carriers from Canada,0.03,2.91,2.91
+Australia,United States,1995,,14,,vehicle engine,vehicle engine,14,?,1996,New,Detriot Diesel 6V-53T (275hp) diesel engine for 14 Piranha-2 (LAV-25 or ASLAV) infantry fighting vehicles from Canada,0.03,0.42,0.42
+Australia,United States,1998,,150,?,vehicle engine,vehicle engine,150,?,2002; 2003; 2004; 2005,New,Detroit Diesel 6V53T (275hp) diesel engine for 150 Piranha-2 (LAV-25 or ASLAV) infantry fighting vehicles and armoured personnel carriers from Canada,0.03,4.5,4.5
+Australia,Sweden,1987,,6,,Collins,submarine,6,,1996; 1998; 1999; 2001; 2003,New,$2.8 b deal; produced under licence in Australia,245,1470,1470
+Australia,United States,2012,,214,?,vehicle engine,vehicle engine,214,?,2012; 2013; 2014,New,Caterpillar-3126 ATTAC (300hp) diesel engine for 214 Bushmaster armoured personnel carriers from Ireland,0.03,6.42,6.42
+Australia,France,2022,?,6,,ship engine,ship engine,0,,,New,Jeumont (±7200hp) electric motor for modernization of 6 Collins submarines,2.5,15,0
+Australia,Germany,2022,?,18,?,ship engine,ship engine,0,,,New,MTU-4000 diesel engine for modernization of 6 Collins submarines,0.25,4.5,0
+Australia,France,2022,?,6,,UMS-3000,submarine sonar,0,,,New,For modernization of 6 Collins submarines,0,0,0
+Australia,United States,2015,,16,?,AGM-88E AARGM,anti-radar missile,16,?,2016; 2017,New,,0.6,9.6,9.6
+Australia,United States,2009,?,5,,King Air,light transport aircraft,5,,2010,New,King Air-300 version; bought by and leased from Australian company,2.85,14.25,14.25
+Australia,United States,2005,,100,?,JDAM,guided bomb,100,?,2007; 2008,New,'AIR-5409' programme,0.02,2,2
+Australia,United States,1988,?,100,?,M-712 Copperhead,guided shell,100,?,1989,New,,0.03,3,3
+Australia,Italy,1959,?,20,?,Model-56 105mm,towed gun,20,?,1960,New,Australian designation L-5 Pack Howitzer,0.45,9,9
+Australia,Germany,2007,,144,?,DM-702 SMART-155,guided shell,144,,2008,New,AUD14 m 'JP-2085 Phase-1B' programme,0.04,5.76,5.76
+Australia,United States,2013,?,4002,?,M-1156 PGK,guided shell,4002,?,2016; 2017; 2018,New,,0.03,120.06,120.06
