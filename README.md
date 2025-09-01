@@ -2,6 +2,10 @@
 To grow my professional capabilities I'm building a project that makes use of SQL to manage data.
 To focus my energies onto something I think is important and to also share that thing, I'm looking at the data of the Australian arms industry.
 
+<h1 align="center">
+  <a href="Arms%20In%20and%20Out%20of%20Australia.pdf">Read the Report here</a>
+</h1>
+
 This project primarily makes use of:
 - Python: `pandas`, `numpy`, `sqlalchemy`, `matplotlib`
 - SQL: SQLite (and eventually Postgres) with Python's `sqlalchemy`
