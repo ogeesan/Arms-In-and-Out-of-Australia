@@ -144,3 +144,12 @@ def normalise_country_name(original: str) -> str:
     if original == "Timor Leste":
         return "Timor-Leste"
     return original
+
+def download_sipri_milex_data() -> None:
+    """Download SIPRI military expenditure data if not already present."""
+    url = 'https://www.sipri.org/sites/default/files/SIPRI-Milex-data-1949-2024_2.xlsx'
+    local_path = Path('data/raw/SIPRI-Milex-data-1949-2024_2.xlsx')
+    if local_path.exists():
+        return
+
+    urllib.request.urlretrieve(url, local_path)

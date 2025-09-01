@@ -6,8 +6,10 @@ from pathlib import Path
 from ausarms import datasource, models, database
 
 
+# noinspection D
 def build_database(db_type):
 
+    datasource.download_sipri_milex_data()
     # For SQLite, remove the old database file to start fresh
     filename = "ausarms.db"
     if db_type == "sqlite":
