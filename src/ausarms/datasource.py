@@ -85,7 +85,7 @@ missing_countries = [
 
 def build_country_table() -> pd.DataFrame:
     """Build a table of countries with continent and region information using SIPRI military expenditure data."""
-    continents = set(["Africa", "Americas", "Asia & Oceania", "Europe", "Middle East"])
+    continents = {"Africa", "Americas", "Asia & Oceania", "Europe", "Middle East"}
     measure_tables = {}
     for measure in measure_types:
         df = load_milex_sheet(measures_and_sheets[measure])
