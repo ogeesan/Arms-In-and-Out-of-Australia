@@ -1,0 +1,16 @@
+# Data specifics
+data/raw/SIPRI-Milex-data-1949-2024.xlsx
+.vscode/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# sql items
+.env
