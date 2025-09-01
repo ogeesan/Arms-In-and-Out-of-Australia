@@ -9,13 +9,15 @@ from ausarms.vis import palette
 aud_to_usd = 0.6734 # Average exchange rate financial year to July 2023
 usd_to_aud = 1 / aud_to_usd
 
-def plot_milex(ax: Axes, measure_type: str, aus_data: pd.DataFrame, global_data: pd.DataFrame) -> None:
+def plot_milex(ax: Axes, measure_type: str, aus_data: pd.DataFrame, global_data: pd.DataFrame, fill: str = 'none') -> None:
     if measure_type == 'share_of_gov_spending':
         ylabel = None
         title = 'Military Expenditure as\nShare of Government Spending'
-    if measure_type == 'per_capita':
+    elif measure_type == 'per_capita':
         ylabel = 'AUD'
         title = 'Military Expenditure\nper capita'
+    else:
+        raise ValueError(f'Unknown measure type: {measure_type}')
 
 
     if measure_type == 'per_capita':
@@ -38,16 +40,18 @@ def plot_milex(ax: Axes, measure_type: str, aus_data: pd.DataFrame, global_data:
 
     data = global_data.groupby('year').expenditure
     average = data.median().values
-    # err = data.std()
-    # mad_per_year = data.apply(
-    #         lambda x: (x - x.median()).abs().median()
-    #     )
-    # err = mad_per_year
+    if fill == 'std':
+        err = data.std()
+    elif fill == 'mad':
+        mad_per_year = data.apply(
+                lambda x: (x - x.median()).abs().median()
+            )
+        err = mad_per_year
+    else:
+        err = 0
     ax.plot(data.mean().index, average, linestyle='-', color='grey', linewidth=1, label='Global median')
-    # ax.fill_between(data.mean().index, average - err, average + err,
-    #                 alpha=0.3, color='grey', edgecolor='none',
-    #                 label='Global median')
-    ax.set_location((1.5, 1.5, 10, 5), method='size')
+    ax.fill_between(data.mean().index, average - err, average + err,
+                    alpha=0.3, color='grey', edgecolor='none')
     ax.set_ylim(0, None)
     ax.set_ylabel(ylabel)
     legend = ax.legend()
