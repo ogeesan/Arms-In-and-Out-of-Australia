@@ -63,7 +63,7 @@ Export Application Processing:
   percent of export applications that were Non-Sensitive: [95, 95, 96, 94]
   percent of export applications that were Sensitive/Complex: [5, 5, 4, 6]
   percent of Non-Sensitive applications assessed within 15 days: [78, 78, 66, 61]
-  percent of Sensitive/Complex applications assessed within 35 day: [94, 83, 94, 87]
+  percent of Sensitive/Complex applications assessed within 35 days: [94, 83, 94, 87]
 Export Application Approvals and Assessments:
   Permits (Customs Act) Issued: [642, 527, 555, 633]
   Permits (Defence Trade Controls Act) Issued: [109, 104, 98, 127]
@@ -239,6 +239,7 @@ Export Application Prohibitions and Denials:
   Prohibition Notices (Weapons of Mass Destruction Act): [1, 0, 0, 0]
   Prohibition Notices (Military End Use): [0, 1, 0, 0]
   Prohibition Notices (Publications): [0, 0, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
   Withdrawn, Made Inactive or Lapsed: [83, 104, 76, 50]
   No Further Action Required: [6, 12, 13, 6]
 Certificate Statistics:
@@ -294,6 +295,7 @@ Export Application Prohibitions and Denials:
   Prohibition Notices (Weapons of Mass Destruction Act): [2, 2, 1, 1]
   Prohibitions Notices (Military End-Use): [1, 0, 0, 0]
   Prohibition Notices (Publications): [0, 0, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
   Withdrawn, Made Inactive, or Lapsed: [97, 85, 83, 82]
   No Further Action Required: [8, 39, 8, 14]
 Certificate Statistics:
@@ -347,6 +349,7 @@ Export Application Prohibitions and Denials:
   Prohibition Notices (Weapons of Mass Destruction Act): [0, 0, 0, 0]
   Prohibitions Notices (Military End-Use): [0, 0, 0, 0]
   Prohibition Notices (Publications): [0, 0, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
   Withdrawn, Made Inactive, or Lapsed: [61, 42, 61, 71]
   No Further Action Required: [27, 38, 50, 30]
 Certificates Issued:
@@ -402,6 +405,7 @@ Export Application Prohibitions and Denials:
   Prohibition Notices (Defence Trade Controls Act): [0, 0, 0, 0]
   Prohibition Notices (Weapons of Mass Destruction Act): [0, 0, 0, 0]
   Prohibitions Notices (Military End-Use): [0, 1, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
   Withdrawn, Made Inactive, or Lapsed: [42, 115, 38, 44] # TODO: * 88 of these 115 applications were created incorrectly and subsequently made inactive.
   No Further Action Required: [37, 24, 22, 34]
 Certificates Issued:
@@ -414,7 +418,7 @@ Australian General Export Licences (AUSGEL) Statistics:
   AUSGEL - Application withdrawn by applicant: [12, 8, 8, 12]
 Certificates and Australian General Export Licences (AUSGEL) Processing:
   Certificates: [99, 99, 99, 97]
-  Australian General ExportLicenses (AUSGEL): [84, 100, 100, 100]
+  Australian General Export Licenses (AUSGEL): [84, 100, 100, 100]
 Broker Registration:
   Broker Registration - Received: [4, 0, 1, 1]
   Broker Registration - Completed: [2, 0, 0, 1]
