@@ -263,7 +263,7 @@ Estimated Value of Approved Defence Permits:
   percent of Defence Permits with a Declared Value: [97, 98, 96, 95]
 Export Permits Issued to End Users by Region:
   Africa: [4, 5, 3, 4]
-  Antarctica: null # strange that the row is empty
+  Antarctica: [null, null, null, null] # strange that the row is empty
   Asia: [18, 18, 16, 17]
   Australia: [19, 15, 20, 14]
   Europe: [19, 21, 21, 19]
