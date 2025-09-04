@@ -388,8 +388,8 @@ Export Applications:
   Applications finalised: [1043, 924, 799, 808]
 Export Application Processing:
   percent of export applications that were Non-sensitive: [94, 93, 92, 94]
-  percent of export applications that were Sensitive/complex: [6, 7, 8, 6, 6.8]
-  percent of Non-Sensitive applications assessed within 15 days: [90, 97, 98, 94, 94.8]
+  percent of export applications that were Sensitive/complex: [6, 7, 8, 6]
+  percent of Non-Sensitive applications assessed within 15 days: [90, 97, 98, 94]
   percent of Sensitive/Complex applications assessed within 35 days: [92, 98, 88, 90]
 Export Application Outcomes:
   Permits (Customs Act) Issued: [675, 559, 508, 522]
@@ -426,7 +426,7 @@ Broker Registration:
 Value of Approved Defence Permits by Year:
 # Caveat on statistics in this section: Exporters do not have to provide the value of their exports when applying for an export permit. The figures below provide the yearly totals of values that were provided in export applications.
   Value of Approved Defence Permits: [1630200456, 4216450640, 312762706, 255908031]
-  percent of Defence Permits with a Declared Value: [75, 63, 63, 72, 73]
+  percent of Defence Permits with a Declared Value: [63, 63, 72, 73]
 Export Permits Issued to End Users by Continent:
   Asia: [21, 20, 19, 17]
   Australia: [24, 22, 22, 27] # Export Permits issued to Australian end users relate to returns and repairs
