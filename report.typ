@@ -30,8 +30,8 @@
   [Source: ] + body
 }
 #let pl(body) = {
-  set text(style: "italic")
-  body + [.]
+  set text(style: "italic", weight: "bold")
+  body + [)]
 }
 // #show "The Strategist": text(style: "italic")[The Strategist]
 
