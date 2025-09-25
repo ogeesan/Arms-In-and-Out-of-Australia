@@ -16,8 +16,11 @@ def load_sipri_traderegister(io: str) -> pd.DataFrame:
     filename = f"SIPRI-trade-register-AUS-{io}.csv"
     data = pd.read_csv(rawdatafolder.joinpath(filename), skiprows=11, encoding="latin")
     # fix "iinfantry fighting vehicle turrent" typo in description
-    data['Weapon description'] = data['Weapon description'].str.replace("iinfantry fighting vehicle turret", "infantry fighting vehicle turret")
+    data["Weapon description"] = data["Weapon description"].str.replace(
+        "iinfantry fighting vehicle turret", "infantry fighting vehicle turret"
+    )
     return data
+
 
 def load_aspi_cod_table() -> pd.DataFrame:
     """Load ASPI's Cost of Defence - Defence Exports table."""
@@ -29,9 +32,9 @@ def load_aspi_cod_table() -> pd.DataFrame:
     tf = data[value_column].isin(["-", "Tied into the Protector-class contract"])
     data.loc[tf, value_column] = None
     data[value_column] = data[value_column].str.replace(",", "").astype(float)
-    
-    data['Current or prior ADF-use'] = data['Current or prior ADF-use'] == 'Y'
-    data['Donation'] = data['Donation'] == 'Y'
+
+    data["Current or prior ADF-use"] = data["Current or prior ADF-use"] == "Y"
+    data["Donation"] = data["Donation"] == "Y"
     return data
 
 
@@ -64,7 +67,13 @@ def load_military_expenditure_data(measure_type: str) -> pd.DataFrame:
 
 def load_milex_sheet(sheet_name: str) -> pd.DataFrame:
     """Load raw sheet from SIPRI's military expenditure data"""
-    return pd.read_excel(rawdatafolder / MILEX_FILENAME, sheet_name=sheet_name)
+    try:
+        df = pd.read_excel(rawdatafolder / MILEX_FILENAME, sheet_name=sheet_name)
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            f"Could not find {MILEX_FILENAME} in {rawdatafolder}. Please download it from SIPRI or use download_sipri_milex_data()"
+        )
+    return df
 
 
 def remove_preheader_rows(df: pd.DataFrame, header_str: str) -> pd.DataFrame:
@@ -147,14 +156,16 @@ def normalise_country_name(original: str) -> str:
         return "Timor-Leste"
     return original
 
+
 def download_sipri_milex_data() -> None:
     """Download SIPRI military expenditure data if not already present."""
-    url = 'https://www.sipri.org/sites/default/files/SIPRI-Milex-data-1949-2024_2.xlsx'
-    local_path = Path('data/raw/SIPRI-Milex-data-1949-2024.xlsx')
+    url = "https://www.sipri.org/sites/default/files/SIPRI-Milex-data-1949-2024_2.xlsx"
+    local_path = Path("data/raw/SIPRI-Milex-data-1949-2024.xlsx")
     if local_path.exists():
         return
 
     urllib.request.urlretrieve(url, local_path)
+
 
 class SafeLineLoader(yaml.SafeLoader):
     """YAML loader that inserts line number into the extracted data"""
@@ -168,7 +179,7 @@ class SafeLineLoader(yaml.SafeLoader):
         return mapping
 
 
-def load_multipage_yaml(filepath, with_line_numbers=False):
+def load_multipage_yaml(filepath: Path, with_line_numbers: bool = False) -> list:
     """Loads .yml data with multiple pages."""
     data = []
     with open(filepath) as f:
