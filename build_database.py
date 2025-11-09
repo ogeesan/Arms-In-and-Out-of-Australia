@@ -3,7 +3,8 @@
 
 from pathlib import Path
 
-from ausarms import datasource, models, database
+from ausarms import datasource, database
+from ausarms.models import sipri
 
 
 # noinspection D
@@ -23,14 +24,14 @@ def build_database(db_type):
     countries = datasource.build_country_table()
     countries["Country"] = countries["Country"].apply(datasource.normalise_country_name)
     print("Populating database...")
-    models.Base.metadata.create_all(engine)
+    sipri.Base.metadata.create_all(engine)
 
     with SessionFactory.begin() as session:
         # Build countries
         country_id_mapping = {}
         for index, countryrow in countries.iterrows():
             country_name = countryrow["Country"]
-            country = models.Country(
+            country = sipri.Country(
                 name=countryrow["Country"],
                 continent=countryrow["Continent"],
                 region=countryrow["Region"],
@@ -56,7 +57,7 @@ def build_database(db_type):
                     year_data = data.at[index, year]
                     if isinstance(year_data, str):
                         continue
-                    expense = models.Expenditure(
+                    expense = sipri.Expenditure(
                         country=country_id,
                         year=year,
                         expenditure=year_data,
@@ -70,7 +71,7 @@ def build_database(db_type):
             data["Recipient"] = data["Recipient"].apply(datasource.normalise_country_name)
             data["Supplier"] = data["Supplier"].apply(datasource.normalise_country_name)
             for index, row in data.iterrows():
-                transfer = models.Transfer(
+                transfer = sipri.Transfer(
                     recipient=country_id_mapping[row["Recipient"]],
                     supplier=country_id_mapping[row["Supplier"]],
                     year_ordered=row["Year of order"],
@@ -87,7 +88,7 @@ def build_database(db_type):
         data = datasource.load_aspi_cod_table()
 
         for index, row in data.iterrows():
-            export = models.Export(
+            export = sipri.Export(
                 company=row["Company"],
                 recipient=row["Recipient"],
                 description=row["Export Description"],

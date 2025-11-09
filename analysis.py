@@ -5,7 +5,7 @@ import scilayout
 import sqlalchemy as sa
 
 from ausarms import crud, database, vis
-
+# %%
 engine = database.create_engine("sqlite")  # or "postgresql"
 SessionMaker = database.create_session(engine)
 session = SessionMaker()

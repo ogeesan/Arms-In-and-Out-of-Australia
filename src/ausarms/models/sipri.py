@@ -1,9 +1,9 @@
 """Models for SQL database of Australian arms trade data."""
 
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Float, Boolean, ForeignKey
 
-Base = declarative_base()
+from ausarms.models.base import Base
+
 
 class Country(Base):
     """All countries, populated by SIPRI's global military expenditure database.

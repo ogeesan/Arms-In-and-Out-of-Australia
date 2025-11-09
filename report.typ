@@ -19,7 +19,7 @@
   figure(
     code(title: [Codebox #context counter(figure.where(kind: "codebox")).get().first(): ] + title, body),
     kind: "codebox",
-    supplement: [Codebox]
+    supplement: [Codebox],
   )
 }
 #show figure.caption.where(kind: image): set align(left)
@@ -30,8 +30,8 @@
   [Source: ] + body
 }
 #let pl(body) = {
-  set text(style: "italic")
-  body + [.]
+  set text(style: "italic", weight: "bold")
+  body + [)]
 }
 // #show "The Strategist": text(style: "italic")[The Strategist]
 
@@ -127,7 +127,7 @@ Along with each transfer, SIPRI defines a value they call the trend-indicator va
     #pl[a] Australian arms export volume. Trend Indicator Value (TIV) measures military resources as calculated by SIPRI. Bars show quantity ordered (by other nation) in the given year, red line shows average for the decade.
     #pl[b] Weapons category contribution across all records of Australia outgoing transfers.
     #figsource[SIPRI]
-    ]
+  ],
 )<fig-transfer>
 
 This is problematic for our questions given that Australia does not have an arms industry that produces tanks.
@@ -187,7 +187,7 @@ Importantly, SIPRI's data does not collect this broader industry information, an
     #pl[a] Number of exports ordered per year.
     #pl[b] Distribution of categories of exports.
     #figsource[ASPI]
-  ]
+  ],
 )<fig-cod>
 
 It would appear that this dataset shows a major increase in volume of export orders being made rising rapidly from 2000 (#ref(<fig-cod>)a).
@@ -274,7 +274,7 @@ I hope this has been an informative report, regardless of your initial reasons f
 #bibliography(
   "references.bib",
   title: [References],
-  style:"iso-690-numeric",
+  style: "iso-690-numeric",
   // style: "iso-690-author-date",
   // style: "modern-humanities-research-association",
 )
