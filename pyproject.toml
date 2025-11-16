@@ -7,9 +7,9 @@ requires-python = ">=3.13"
 dependencies = [
     "alembic>=1.16.5",
     "matplotlib>=3.10.5",
+    "mkdocs-material>=9.7.0",
     "openpyxl>=3.1.5",
     "pandas>=2.3.2",
-    "psycopg2>=2.9.10",
     "psycopg2-binary>=2.9.10",
     "python-dotenv>=1.1.1",
     "scilayout>=0.1.0b1",
