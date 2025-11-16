@@ -1,0 +1,41 @@
+# https://www.dfat.gov.au/trade/trade-and-investment-data-information-and-publications/trade-statistics/trade-statistical-pivot-tables
+# values copied from Australia AHECC export pivot table 2007 to 2024 [XLSX 3.4 MB]
+# full .xlsx is a few MB so relevant data is transcribed here
+ahecc export 93:
+  2007: 78130
+  2008: 104366
+  2009: 75173
+  2010: 77855
+  2011: 88286
+  2012: 50997
+  2013: 119606
+  2014: 88183
+  2015: 119103
+  2016: 78660
+  2017: 51843
+  2018: 67687
+  2019: 184278
+  2020: 168569
+  2021: 75929
+  2022: 102710
+  2023: 217631
+  2024: 248198
+ahecc export 8710:
+  2007: 39326
+  2008: 62102
+  2009: 58593
+  2010: 14047
+  2011: 7618
+  2012: 14564
+  2013: 6730
+  2014: 16220
+  2015: 52825
+  2016: 47350
+  2017: 28735
+  2018: 68544
+  2019: 8055
+  2020: 20279
+  2021: 19917
+  2022: 23335
+  2023: 178396
+  2024: 46394
