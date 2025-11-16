@@ -26,8 +26,10 @@ class CoreModel(BaseModel):
         populate_by_name=True,
     )
 
+
 class ExportApplications(CoreModel):
     """Statistics on export applications received and finalised."""
+
     ApplicationsReceived: Annotated[
         QuarterValues, Field(..., alias="Applications Received")
     ]
@@ -56,7 +58,10 @@ class ExportApplicationProcessing(CoreModel):
     ]
     percent_sensitive_within_35_days: Annotated[
         QuarterValues,
-        Field(..., alias="percent of Sensitive/Complex applications assessed within 35 days"),
+        Field(
+            ...,
+            alias="percent of Sensitive/Complex applications assessed within 35 days",
+        ),
     ]
 
 
@@ -79,15 +84,19 @@ class ExportApplicationApprovals(CoreModel):
 
 
 class ExportApplicationsDenials(CoreModel):
-    denials_customs_act: Annotated[QuarterValues, Field(..., alias="Denials (Customs Act)")]
+    denials_customs_act: Annotated[
+        QuarterValues, Field(..., alias="Denials (Customs Act)")
+    ]
     inprinciple_not_supported: Annotated[
         QuarterValues, Field(..., alias="In-Principle Applications Not Supported")
     ]
     prohibition_dtc: Annotated[
-        QuarterValues, Field(..., alias="Prohibition Notices (Defence Trade Controls Act)")
+        QuarterValues,
+        Field(..., alias="Prohibition Notices (Defence Trade Controls Act)"),
     ]
     prohibition_wmd: Annotated[
-        QuarterValues, Field(..., alias="Prohibition Notices (Weapons of Mass Destruction Act)")
+        QuarterValues,
+        Field(..., alias="Prohibition Notices (Weapons of Mass Destruction Act)"),
     ]
     prohibition_military_end_use: Annotated[
         QuarterValues, Field(alias="Prohibition Notices (Military End Use)")
@@ -102,7 +111,8 @@ class ExportsApplicationsUnused(CoreModel):
         QuarterValues, Field(..., alias="Withdrawn, Made Inactive, or Lapsed")
     ]
     no_further_action: Annotated[
-        QuarterValues, Field(alias="No Further Action Required") # not every year has this
+        QuarterValues,
+        Field(alias="No Further Action Required"),  # not every year has this
     ]
 
 
@@ -140,10 +150,11 @@ class BrokerRegistration(CoreModel):
 
 class EstimatedValueApproved(CoreModel):
     """Statistics on the estimated value of approved defence permits.
-    
+
     From 2018 applications were required to estimate value across their lifetime, and so a stated caveat of this data is that it's difficult to compare year to year values.
 
     """
+
     # these two aren't present in all data
     total: Annotated[QuarterValues, Field(None, alias="Total number permits")]
     number_with_value: Annotated[
@@ -151,7 +162,8 @@ class EstimatedValueApproved(CoreModel):
     ]
 
     percent_with_value: Annotated[
-        QuarterValues, Field(..., alias="percent of Defence Permits with a Declared Value")
+        QuarterValues,
+        Field(..., alias="percent of Defence Permits with a Declared Value"),
     ]
     value: Annotated[
         QuarterValues, Field(..., alias="Estimated Value on Approved Defence Permits")
@@ -171,14 +183,48 @@ class Region(CoreModel):
 
 class FinancialYear(CoreModel):
     FinancialYear: str = Field(..., alias="Financial Year")
-    ExportApplications: Annotated[ExportApplications, Field(..., alias="Export Applications")]
-    ExportApplicationProcessing: Annotated[ExportApplicationProcessing, Field(..., alias="Export Application Processing")]
-    ExportApplicationOutcomes: Annotated[ExportApplicationApprovals, Field(..., alias="Export Application Approvals and Assessments")]
-    ExportApplicationsDenials: Annotated[ExportApplicationsDenials, Field(..., alias="Export Application Prohibitions and Denials")]
-    ExportsApplicationsUnused: Annotated[ExportsApplicationsUnused, Field(..., alias="Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required")]
-    CertificateStatistics: Annotated[CertificateStatistics, Field(..., alias="Certificate Statistics")]
-    AUSGELStatistics: Annotated[AUSGELStatistics, Field(..., alias="Australian General Export Licences (AUSGEL) Statistics")]
-    AUSGELProcessing: Annotated[AUSGELProcessing, Field(..., alias="Certificates and Australian General Export Licences (AUSGEL) Processing")]
-    BrokerRegistration: Annotated[BrokerRegistration, Field(..., alias="Broker Registration")]
-    EstimatedValueApproved: Annotated[EstimatedValueApproved, Field(..., alias="Estimated Value of Approved Defence Permits")]
-    Region: Annotated[Region, Field(..., alias="Export Permits Issued to End Users by Region")]
+    ExportApplications: Annotated[
+        ExportApplications, Field(..., alias="Export Applications")
+    ]
+    ExportApplicationProcessing: Annotated[
+        ExportApplicationProcessing, Field(..., alias="Export Application Processing")
+    ]
+    ExportApplicationOutcomes: Annotated[
+        ExportApplicationApprovals,
+        Field(..., alias="Export Application Approvals and Assessments"),
+    ]
+    ExportApplicationsDenials: Annotated[
+        ExportApplicationsDenials,
+        Field(..., alias="Export Application Prohibitions and Denials"),
+    ]
+    ExportsApplicationsUnused: Annotated[
+        ExportsApplicationsUnused,
+        Field(
+            ...,
+            alias="Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required",
+        ),
+    ]
+    CertificateStatistics: Annotated[
+        CertificateStatistics, Field(..., alias="Certificate Statistics")
+    ]
+    AUSGELStatistics: Annotated[
+        AUSGELStatistics,
+        Field(..., alias="Australian General Export Licences (AUSGEL) Statistics"),
+    ]
+    AUSGELProcessing: Annotated[
+        AUSGELProcessing,
+        Field(
+            ...,
+            alias="Certificates and Australian General Export Licences (AUSGEL) Processing",
+        ),
+    ]
+    BrokerRegistration: Annotated[
+        BrokerRegistration, Field(..., alias="Broker Registration")
+    ]
+    EstimatedValueApproved: Annotated[
+        EstimatedValueApproved,
+        Field(..., alias="Estimated Value of Approved Defence Permits"),
+    ]
+    Region: Annotated[
+        Region, Field(..., alias="Export Permits Issued to End Users by Region")
+    ]

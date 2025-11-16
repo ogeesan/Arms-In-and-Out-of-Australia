@@ -31,3 +31,14 @@ Included usage in my project is [`scilayout`](https://github.com/ogeesan/scilayo
 - The Arms Trade Treaty Annual Reports have yearly data https://thearmstradetreaty.org/annual-reports.html?templateId=209826.
 - The Australian Bureau of Statistics publishes [Defence Industry Account](https://www.abs.gov.au/statistics/economy/national-accounts/australian-defence-industry-account-experimental-estimates/2023-24).
 - AusTenders has [an API](https://github.com/austender/austender-ocds-api) that could be used to generate better company specific data.
+
+
+```
+data/
+  source/     # the data extracted itself
+    defence-export-controls/
+    australian-bureau-statistics/
+    arms-trade-treaty/
+    strategic-policy-research-institute/
+  extracted/  # csv/json extracted
+```

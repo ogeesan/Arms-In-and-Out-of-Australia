@@ -36,14 +36,15 @@
 // #show "The Strategist": text(style: "italic")[The Strategist]
 
 
+
 = Introduction
 In 2018 the Australian Government announced its plan to become one of the top 10 arms exporters in the world @ausgovDefenceExportStrategy2018.
-Since then, Australia's share of the global international arms trade has increased by 54%, ranking it 17 in the world @sipriTrendsInternationalArms2024.
+Since then Australia's share of the global international arms trade has increased by 54%, ranking it 17 in the world @sipriTrendsInternationalArms2024.
 Modern warfare's civilian death rate is 25% to 50% @Khorram-ManeshEstimatingCivilianCasualties2021 and its negative impacts are much broader.
-For all of the strategic analysis we can do there are factual realities about who is doing the dying.
+For all of the strategic analysis we can do about Australia's "defence posture" there are factual realities about who is doing the dying.
 Australia is a growing arms exporter and Australians need to be aware of what this means.
 
-This document is two things.
+This report is two things.
 Firstly, it is an analysis of the data on the Australian arms industry designed to give readers an insight into what Australia is undertaking and the lack of clarity in the data about this.
 Secondly, it is a "toy-project" which is a programming project to learn and showcase competency to recruiters.
 It is for this second reason this report contains boxes like @cb-techstack, which are code or pseudo-code used to process and generate the data/graphs.
@@ -71,7 +72,7 @@ One way to examine how Australia's investment in armaments is going is to look a
     #pl[a] Expenditure as percentage of government spending. Blue, Australia; Grey, global median.
     #pl[b] Expenditure as per capita. Values are AUD in 2023.
     #figsource[SIPRI]
-    ],
+  ],
 )<fig-milex-median>
 
 According to expenditure as a percentage of total government spending, Australia's expenditure levels are right about level with the global median at just below 6% (#ref(<fig-milex-median>)a).
@@ -143,8 +144,10 @@ Arms transfer, in which individual items.
 For example, SIPRI data does not include arms components, such as items in the F-35 Joint Strike Fighter jet.
 Participation in the arms industry is not simply a matter of buying guns or even just selling them.
 
+Additionally, SIPRI's dataset contains various values from historical item transfers, such as donations of vehicles to museums.
+
 #codebox(title: [Retrieving data from SQL database using object-relational mapping])[
-  SQL queries using orm 
+  SQL queries using orm
   ```python
   from sqlalchemy.orm import sessionmaker
   from ausarms import crud
@@ -169,12 +172,12 @@ This is particularly important when we consider a system like the F-35 jet.
 It is Australia's (and much of NATO's) latest attack jet, boasting advanced stealth capabilities and over eight tonnes of explosive carrying capacity.
 Australia is one of eight nations that build parts for the F-35, which is ultimately constructed by Lockheed Martin.
 The F-35 is constructed with a complex global supply chain where Lockheed Martin contracts the construction of components out to different companies in different countries.
-Since 2006, more than 75 companies in Australia have participated as part of this, yielding more than AUD\$5,000,000,000 (five billion) in revenue @ausgovF35BillionMilestone2025.
+Between 2006 and 2025, more than 75 companies in Australia have participated as part of this, yielding more than AUD\$5,000,000,000 (five billion) in revenue @ausgovF35BillionMilestone2025.
 For example, Rosebank (located in Bayswater, Victoria) constructs the actuators for the bomb-bay doors, and Ferra (located in Brisbane, Queensland) builds weapons adaptors for carrying missiles inside the bomb-bay.
-The nature of the supply chain means that every single F-35 in operation has parts made in Australia.
+The nature of the supply chain means that every single F-35 in operation around the world has parts made in Australia.
 The arms trade is not simply a matter of building a gun and selling it: the globalisation of trade and industry has spread the manufacturing responsibility for complex arms across multiple nations.
 #footnote[
-  Therefore, when the Prime Minister and others have stated that the parts Australia supplies into the global F-35 program are "non-lethal", they are correct.
+  Therefore, when the Prime Minister and others have stated that the parts Australia supplies into the global F-35 program are "non-lethal", he is correct.
   //https://www.abc.net.au/news/2025-08-14/australia-defence-export-permits-to-israel-gaza-war/105628320
   We merely build the actuators for the doors that open to kill civilians, not the bombs themselves.
 ]
@@ -183,7 +186,7 @@ Importantly, SIPRI's data does not collect this broader industry information, an
 #figure(
   image("images/cod_data.svg"),
   caption: [
-    Australian arms industry exports.
+    Australian arms industry exports manually curated by ASPI.
     #pl[a] Number of exports ordered per year.
     #pl[b] Distribution of categories of exports.
     #figsource[ASPI]
@@ -191,7 +194,7 @@ Importantly, SIPRI's data does not collect this broader industry information, an
 )<fig-cod>
 
 It would appear that this dataset shows a major increase in volume of export orders being made rising rapidly from 2000 (#ref(<fig-cod>)a).
-However, it is worth noting that this database is not exhaustive and is entirely reliant on media reports.
+However, it is worth noting that this database is not exhaustive and is almost entirely reliant on media reports.
 #footnote[
   The ASPI compiled this database and stated "it will show that Australia has a robust, internationally competitive defence industry that has won export success far beyond the headline stories" @hellyerDemystifyingAustraliasDefence.
   I am sure that they want this data to show that Australia's arms industry is growing nicely and ready for more.
@@ -209,7 +212,7 @@ The data also highlights how important it is to examine the arms industry more b
       ax.set_ylim(-.5, len(data))
       ax.xaxis.set_major_formatter(mpl.ticker.PercentFormatter(100, decimals=0))
       seaborn.despine(ax=ax, left=True, offset=5)
-  
+
   fig = scilayout.figure()
   ax_categories = fig.add_panel((10, 1.5, 5, 5), method='size')  # in centimetres
   plot_category_data(ax_categories, df_aspi)
@@ -238,9 +241,20 @@ However, regardless of Australia's size, this growth is happening @troathPolitic
 Tying together strategic interests and economic interests is a dangerous joyride flush with cash and ethical problems.
 Once they become deeply entangled it sets the stage for dangerous and destructive politics driven by vested interests @hartungArmsDreamRepresentative2022.
 
+The data also cannot capture important legislative changes that are occurring.
+//Defence and Strategic Goods List (DSGL)
+In April of 2024 Parliament passed the Defence Trade Controls Amendment Bill.
+This bill effectively gives a permit exemption to arms industry exports to the United States and United Kingdom.
+This means Australia can export arms to the United States freely, and also that whatever it is that the United States does with those is none of our business.
+This has already been observed with
+and there is a possibility that
+
 The slaughter of Gaza is a prime example of where the industrial considerations contaminate.
 It has been embarrassing to see government ministers stumble over attempted reasoning about how "we do not sell weapons to Israel".
 What they really mean is that we build essential #emph[parts] for weapons systems, which according to these ministers are not #emph[weapons], and that we do not #emph[sell] to Israel but instead selling to Lockheed Martin or the United States (who go on to sell them to Israel).
+
+Australia is smuggling F-35 parts to Israel in passenger jets @declassifiedSecretCargoInside2025.
+I would like to believe that the average Aussie recognises this is insanity.
 
 #quote(attribution: [Defence Minister Richard Marles @abcMurkyDebateExport2024], block: true)[
   // We're an F-35 country and we have been for decades.
@@ -270,6 +284,23 @@ This is what tying together weapons building and economic interests gets you.
 In this small project where I am learning some important programming skills, I have also explored some important data on the trends in Australia's arms industry.
 I hope this has been an informative report, regardless of your initial reasons for reading it.
 
+== The Future
+
+It is very reasonable that Australia should at least examine its arms exports in the context of nations undergoing active investigation for crimes against humanity and genocide.
+
+Firstly, transparency.
+Information on the arms trade is scarce, and the data that does exist lacks real detail.
+In the end, Australians are left guessing as to what is being sold where and for what purpose, which is exactly the problem.
+Secondly, governance.
+Australia has no systems to monitor or react to the usage of its arms exports.
+This is effectively an excuse to sell arms to the United States and simply say "be chill, it's to our allies".
+Thirdly,
+@quakersArmsTradeReport2025
+
+
+I don't know how much more clearly to put this: we really shouldn't be selling things, especially arms, to nations that are actively committing genocide.
+That's crazy behaviour.
+
 #pagebreak()
 #bibliography(
   "references.bib",
@@ -288,3 +319,89 @@ I hope this has been an informative report, regardless of your initial reasons f
 
 // The military expenditure dataset was used to build @sipriMilitaryExpenditureDatabase the database.
 // However, SIPRI limits the reproduction of this dataset to a maximum of 10% and so it cannot be included with this repository.
+== Government statistics
+The Australian Government's arms trade, and indeed military dealings, has been called some of the most secretive in the world. // TODO: citation
+For example, Australian export has long
+Indeed, Freedom of Information (FOI) requests are one of the primary methods in which real detailed information regarding Australian arms exports have been obtained.
+The existing mechanisms are not so useful.
+
+
+This section examines all of the sources of Government data on arms trade.
+
+=== Defence Export Controls
+The Defence Export Controls (DEC) is a Defence body that issues permits for Australian arms exports.
+The list of items under control are described in the Defence and Strategic Goods List (DSGL).
+The DSGL includes items like body armour and bombs, but also the software and technology associated with any item in the list.
+Additionally, dual-use goods, which are items with both commercial and military application such as electronics and avionics, are included on the DSGL.
+Ultimately, discretion is with the Defence Minister to determine if an export is in breach of Australia treaty obligations.
+#footnote[
+  Fun fact, technically there is no limit to the Defence Minister's power here.
+  Because the DSGL cannot be exhaustive, the Defence Minister has the ability to determine that #emph[any] export is an arms export and therefore prevent it. // TODO: source?
+]
+
+With warhawks defining the Department of Defence's reporting as "nonsensical" @hellyerDefenceMurkyExport2025.
+
+It is important to note that DEC's primary data relates to the application for export permits made by companies, not the exports themselves.
+In other words, the data is more about the paperwork being filed for requests to be able to export to DEC rather than actual sales.
+However, DEC data may serve as a useful measure of trade activity within the Australian arms export world.
+
+
+The 2024 figure of \$100 billion is unlikely to mean that literally \$100 billion worth of exports were made.
+
+In 2025 DEC began releasing more detailed geographical information about export location.
+DEC data stated exports according to continent, which is largely useless.
+
+=== The Australian Bureau of Statistics
+The Australian Bureau of Statistics (ABS) maintains datasets on trade exports @absTradeStatistics2025, including arms and ammunition.
+
+=== Department of Foreign Affairs and Trade
+The Department of Foreign Affairs and Trade (DFAT) is responsible for developing Australian's international interests, including foreign policy and international trade.
+The arms trade is tied to Australia's "security" interests.
+
+It has been noted by a few places that the Department of Foreign Affairs and Trade (DFAT) have defence numbers that differ to the ABS.
+
+This has been interpreted by various organisations as the result of failures for transparency.
+While it is absolutely true that Australia's arms trade lacks transparency, I have found that this is not the reason DFAT and ABS numbers differ.
+
+Parallel to this, the Department of Foreign Affairs and Trade (DFAT) maintains its own trade data of arms and ammunition (#ref(<fig-economic-statistics>)a).
+
+#figure(
+  image("images/abs_dfat_comparison.png"),
+  caption: [
+    Export values
+    #pl[a] Export statistics from the ABS and DFAT.
+    DFAT values are derived from ABS values, but have "minor" adjustments and are recategorised.
+    Orange, difference between ABS and DFAT data.
+    #pl[b] The difference between DFAT and ABS values are explained by exclusion of Armoured Fighting Vehicles (AFVs) from DFAT's figures.
+    Orange bars, ABS - DFAT values also reflected in a.
+    #pl[c] Remaining difference between DFAT figures after ATVs are added.
+    #figsource[ABS and DFAT]
+  ],
+)<fig-economic-statistics>
+
+
+
+==== The differences in DFAT and ABS statistics explained
+Many analysts have noted that DFAT and ABS have different values for their arms export figures, and interpreted this as a lack of transparency.
+I have identified the origin of this apparent discrepancy.
+
+DFAT's arms exports values are consistently lower than compared to ABS figures.
+I have found that this is because ABS categorises exports according to Standard International Trade Classification (SITC) while DFAT uses the Australian Harmonised Export Commodity Classification (AHECC).
+The key difference is that armoured fighting vehicles are included in the SITC's arms and weapons category (891) while AHECC's arms and weapons category (93) does not include vehicles (87).
+The proof is found when DFAT's arms and weapons values are added to the vehicles values, as they are very close matches for the ABS values (#ref(<fig-economic-statistics>)b).
+Between 2007 and 2024 DFAT and ABS values differ by a total of \$707 million, and across the same time AFVs totalled \$713 million.
+
+After accounting for AFVs, ABS and DFAT values can still differ by up to \$2 million (#ref(<fig-economic-statistics>)c).
+
+These millions may be the  result of other (smaller) differences in categorisation, as well as corrections (including changing inaccurately coded materials) that DFAT makes to the data derived from ABS.
+This may be because AHECC has other differences to SITC.
+Ultimately, because DFAT's data is derived from ABS data there is no (data-related) reason to suppose that analysing DFAT data will provide additional insights.
+The fact that after adding AFVs into DFAT's arms and ammuntion values there are sometimes millions leftover suggests that DFAT's data is more than just ABS' with AFV subtracted and minor corrections, but other categories at play.
+It is for this reason that further analysis of export data utilises only ABS data.
+However, it is important to note that neither AHECC nor SITC categories include servicing, which forms a large bulk of Australia's arms export industry.
+
+However, I will maintain the dataset because it may be a useful
+
+=== The Defence Industry Account
+A relatively new source of data on the arms industry in Australia is ABS's Australian Defence Industry Account (ADIA), which uses invoices from a supplier of a goods or service to the Department of Defence @absDefenceIndustryAccount2024.
+Therefore, this data does not include overseas expenses.
