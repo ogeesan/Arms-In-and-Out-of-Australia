@@ -1,6 +1,8 @@
 # Data specifics
-data/raw/SIPRI-Milex-data-1949-2024.xlsx
+data/raw/*
+data/source/*
 .vscode/
+workbench.py
 # Python-generated files
 __pycache__/
 *.py[oc]
