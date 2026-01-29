@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from ausarms.models.sipri import Country, Expenditure, Transfer, Export
+from ausarms.models.sipri import Country, Expenditure
 
 
 def get_country(session: Session, name: str) -> Country:

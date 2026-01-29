@@ -1,4 +1,7 @@
 # Arms in and out of Australia - a data project
+Australia's arms industry is less transparent than other countries, even the United States and the United Kingdom.
+This project aims to aggregate all of the data on Australian arms that does exist into something usable by anyone.
+
 To grow my professional capabilities I'm building a project that makes use of SQL to manage data.
 To focus my energies onto something I think is important and to also share that thing, I'm looking at the data of the Australian arms industry.
 
@@ -42,3 +45,11 @@ data/
     strategic-policy-research-institute/
   extracted/  # csv/json extracted
 ```
+
+## Data organisation
+- data/
+  - `defence-export-controls/`
+    - `source/` : raw files downloaded from the source
+    - `extracted/` : extracted using a script
+    - `transcribed/` : manually copy/pasted or written down
+    - `exported/` : data cleaned and ready for usage

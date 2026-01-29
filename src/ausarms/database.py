@@ -10,9 +10,11 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+
 def get_database_path() -> str:
     """Get the database file path."""
-    return 'ausarms.db'
+    return "ausarms.db"
+
 
 def get_database_url(db_type: str = "sqlite") -> str:
     """Get database URL based on environment or type."""
@@ -42,7 +44,9 @@ def create_engine(db_type: str = "sqlite") -> sa.Engine:
     return engine
 
 
-def create_session(engine: Optional[sa.Engine] = None, db_type: str = "sqlite") -> sessionmaker:
+def create_session(
+    engine: Optional[sa.Engine] = None, db_type: str = "sqlite"
+) -> sessionmaker:
     """Create SQLAlchemy session factory."""
     if engine is None:
         engine = create_engine(db_type)

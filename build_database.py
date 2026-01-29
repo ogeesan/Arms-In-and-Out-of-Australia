@@ -9,7 +9,6 @@ from ausarms.models import sipri
 
 # noinspection D
 def build_database(db_type):
-
     datasource.download_sipri_milex_data()
     # For SQLite, remove the old database file to start fresh
     filename = "ausarms.db"
@@ -68,7 +67,9 @@ def build_database(db_type):
         # Build transfers
         for direction in ["incoming", "outgoing"]:
             data = datasource.load_sipri_traderegister(direction)
-            data["Recipient"] = data["Recipient"].apply(datasource.normalise_country_name)
+            data["Recipient"] = data["Recipient"].apply(
+                datasource.normalise_country_name
+            )
             data["Supplier"] = data["Supplier"].apply(datasource.normalise_country_name)
             for index, row in data.iterrows():
                 transfer = sipri.Transfer(
@@ -103,9 +104,11 @@ def build_database(db_type):
 
     print("Data population complete.")
 
+
 def main():
     db_type = "sqlite"  # "sqlite" or "postgresql"
     build_database(db_type)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

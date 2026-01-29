@@ -11,3 +11,5 @@ Each page here is a description of a data-source.
 - **Strategic Policy Research Institute**
 
 </div>
+
+The US and UK operate in a "license-free agreement" under the Defence Trade Controls Agreement Act 2024.

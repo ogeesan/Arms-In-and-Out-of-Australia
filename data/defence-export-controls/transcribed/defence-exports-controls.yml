@@ -1,6 +1,525 @@
 # https://www.defence.gov.au/about/accessing-information/export-permit-statistics
 # Values copy/pasted and formatted with VS Code
 ---
+Financial Year: 2024/2025
+Quarter: 3
+Total Issued Permits – By PART of the Defence and Strategic Goods List:
+  Defence and Strategic Goods List – Part 1: 535
+  Defence and Strategic Goods List – Part 2: 290
+Total Issued Permits – By CATEGORY of the Defence and Strategic Goods List:
+  Category 0 - Nuclear materials, facilities and equipment: --
+  Category 1 - Materials, chemicals, microorganisms and toxins: 44
+  Category 2 - Materials processing: 22
+  Category 3 - Electronics: <5
+  Category 4 - Computers: 29
+  Category 5 - Telecommunications and information security: 110
+  Category 6 - Sensors and lasers: 8
+  Category 7 - Navigation and avionic: 18
+  Category 8 - Marine: 6
+  Category 9 - Aerospace and propulsion: 9
+Issued Permits – End-User Destinations by Country/Territory:
+  AMERICAN SAMOA: [--, <5]
+  ARGENTINA: [<5, <5]
+  AUSTRALIA: [44, 12]
+  AUSTRIA: [<5, <5]
+  BAHRAIN: [--, <5]
+  BANGLADESH: [<5, <5]
+  BELGIUM: [5, <5]
+  BENIN: [--, <5]
+  BRAZIL: [5, <5]
+  BRUNEI: [<5, <5]
+  BULGARIA: [<5, <5]
+  CANADA: [30, 10]
+  CHINA: [--, <5]
+  CHRISTMAS ISLAND: [--, <5]
+  COLOMBIA: [--, <5]
+  CROATIA: [<5, --]
+  CZECHIA: [<5, <5]
+  DENMARK: [12, <5]
+  ECUADOR: [--, <5]
+  EGYPT: [<5, <5]
+  ESTONIA: [<5, <5]
+  ETHIOPIA: [--, <5]
+  FIJI: [<5, --]
+  FINLAND: [<5, <5]
+  FRANCE: [21, 8]
+  FRENCH POLYNESIA: [--, <5]
+  GERMANY: [29, 8]
+  GHANA: [<5, <5]
+  GREECE: [<5, <5]
+  GUAM: [<5, --]
+  GUYANA: [--, <5]
+  HONG KONG: [<5, 5]
+  HUNGARY: [<5, <5]
+  INDIA: [22, 15]
+  INDONESIA: [<5, 10]
+  IRELAND: [<5, 11]
+  ISRAEL: [10, --]
+  ITALY: [13, 5]
+  JAMAICA: [<5, --]
+  JAPAN: [9, 6]
+  KENYA: [--, <5]
+  LAOS: [--, <5]
+  LATVIA: [<5, <5]
+  LITHUANIA: [<5, <5]
+  LUXEMBOURG: [<5, <5]
+  MALAYSIA: [7, <5]
+  MAURITANIA: [--, <5]
+  MEXICO: [<5, <5]
+  MONGOLIA: [<5, --]
+  MOROCCO: [<5, --]
+  NAMIBIA: [--, <5]
+  NEPAL: [<5, <5]
+  NETHERLANDS: [17, 6]
+  NEW CALEDONIA: [<5, <5]
+  NEW ZEALAND: [48, 18]
+  NICARAGUA: [--, <5]
+  NORFOLK ISLAND: [<5, <5]
+  NORWAY: [28, 6]
+  OMAN: [<5, --]
+  PAKISTAN: [<5, --]
+  PAPUA NEW GUINEA: [5, 11]
+  PERU: [<5, <5]
+  PHILIPPINES: [<5, <5]
+  POLAND: [<5, <5]
+  PORTUGAL: [5, <5]
+  QATAR: [--, <5]
+  ROMANIA: [<5, <5]
+  SAMOA: [--, <5]
+  SAUDI ARABIA: [<5, <5]
+  SENEGAL: [--, <5]
+  SINGAPORE: [15, 7]
+  SLOVAKIA: [--, <5]
+  SOLOMON ISLANDS: [<5, --]
+  SOMALIA: [--, <5]
+  SOUTH AFRICA: [<5, 5]
+  SOUTHKOREA: [18, 5]
+  SPAIN: [15, <5]
+  SRI LANKA: [<5, --]
+  SURINAME: [--, <5]
+  SWEDEN: [10, <5]
+  SWITZERLAND: [<5, <5]
+  TAIWAN: [<5, <5]
+  THAILAND: [5, <5]
+  TIMOR-LESTE: [<5, 5]
+  TONGA: [<5, <5]
+  TURKIYE: [<5, --]
+  TURKMENISTAN: [<5, --]
+  UKRAINE: [9, <5]
+  UNITED ARAB EMIRATES: [8, <5]
+  UNITED KINGDOM: [15, <5]
+  UNITED STATES: [50, <5]
+  VANUATU: [--, <5]
+  VIET NAM: [<5, <5]
+  ZAMBIA: [<5, <5]
+Export Permits Issued to End Users by Region:
+  Africa: 4
+  Antarctica: 0
+  Asia: 24
+  Australia: 10
+  Europe: 27
+  North America: 16
+  Oceania: 15
+  South America: 4
+Export Applications:
+  Applications Received: 1231
+  Applications Finalised: 983
+Export Application Processing:
+  percent of export applications that were Non-Sensitive: 94
+  percent of export applications that were Sensitive/Complex: 6
+  # table data has changed to read:
+  # The percentage of export applications processing times thatmet benchmark assessment timeframes
+  percent of Non-Sensitive applications assessed within 15 days: 97
+  percent of Sensitive/Complex applications assessed within 35 days: 3
+Export Application Approvals and Assessments:
+  Permits (Customs Act) Issued: 419
+  Permits (Defence Trade Controls Act) Issued: 101
+  In-Principle Applications Approved: <5
+  Export Control Assessments Issued: 135
+  Advice to Government Agencies Issued: 42
+Export Application Prohibitions and Denials:
+  Denials (Customs Act): 0
+  In-Principle Applications Not Supported: <5
+  Prohibition Notices (Defence Trade Controls Act): 0
+  Prohibition Notices (Weapons of Mass Destruction Act): <5
+  Prohibition Notices (Military End Use): 8
+  Prohibition Notices (Publications): 0
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
+  Withdrawn, Made Inactive or Lapsed: 112
+  No Further Action Required: 0
+Certificate Statistics:
+  International Import Certificates issued: 53
+  Delivery Verification Certificates issued: 63
+  Non-Transfer and End-Use Certificates issued: 16
+  Foreign End Use Certificates signed: 36
+Australian General Export Licences (AUSGEL) Statistics:
+  AUSGEL - Approved: 12
+  AUSGEL - Withdrawn: <5
+  Inactive: <5
+Certificates and Australian General Export Licences (AUSGEL) Processing:
+  Certificates: 83
+  Australian General Export Licenses (AUSGEL): 0
+Broker Registration:
+  Received: <5
+  Completed: 0
+  Withdrawn: 0
+Estimated Value of Approved Defence Permits:
+  # new format with no tables
+  Total number Permits: 517
+  number Permits with Values: 504
+  Estimated Value on Approved Defence Permits: 1430000000
+---
+Financial Year: 2024/2025
+Quarter: 2
+Total Issued Permits – By PART of the Defence and Strategic Goods List:
+  Defence and Strategic Goods List – Part 1: 338
+  Defence and Strategic Goods List – Part 2: 278
+Total Issued Permits – By CATEGORY of the Defence and Strategic Goods List:
+  Category 0 - Nuclear materials, facilities and equipment: --
+  Category 1 - Materials, chemicals, microorganisms and toxins: 41
+  Category 2 - Materials processing: 27
+  Category 3 - Electronics: 8
+  Category 4 - Computers: --
+  Category 5 - Telecommunications and information security: 181
+  Category 6 - Sensors and lasers: 48
+  Category 7 - Navigation and avionic: 18
+  Category 8 - Marine: --
+  Category 9 - Aerospace and propulsion: 22
+Issued Permits – End-User Destinations by Country/Territory:
+  ALBANIA: [<5, <5]
+  ANGOLA: [--, <5]
+  ARGENTINA: [<5, <5]
+  AUSTRALIA: [53, 17]
+  AUSTRIA: [<5, <5]
+  BANGLADESH: [--, 5]
+  BELGIUM: [7, <5]
+  BOLIVIA: [<5, --]
+  BRAZIL: [<5, <5]
+  BRUNEI: [<5, <5]
+  BULGARIA: [<5, <5]
+  BURKINA FASO: [--, <5]
+  CANADA: [13, 7]
+  CENTRAL AFRICAN REPUBLIC: [--, <5]
+  CHILE: [<5, 6]
+  CHINA: [<5, 5]
+  COLOMBIA: [<5, --]
+  COOKISLANDS: [--, <5]
+  CROATIA: [<5, --]
+  CZECHIA: [<5, 10]
+  DENMARK: [5, <5]
+  ESTONIA: [<5, <5]
+  ESWATINI: [--, <5]
+  ETHIOPIA: [--, <5]
+  FIJI: [<5, <5]
+  FINLAND: [9, <5]
+  FRANCE: [16, <5]
+  GEORGIA: [<5, --]
+  GERMANY: [35, 14]
+  GHANA: [--, 5]
+  GREECE: [<5, <5]
+  GUAM: [--, <5]
+  GUINEA: [--, <5]
+  HONG KONG: [<5, 5]
+  HUNGARY: [<5, <5]
+  INDIA: [12, 11]
+  INDONESIA: [12, 11]
+  IRELAND: [<5, 16]
+  IRAQ: [--, <5]
+  ITALY: [12, <5]
+  JAMAICA: [<5, --]
+  JAPAN: [8, 9]
+  KAZAKHSTAN: [--, <5]
+  KIRIBATI: [--, <5]
+  LAOS: [--, <5]
+  LATVIA: [<5, <5]
+  LITHUANIA: [<5, <5]
+  LUXEMBOURG: [<5, <5]
+  MACAO: [--, <5]
+  MALAYSIA: [<5, 10]
+  MALTA: [<5, --]
+  MAURITANIA: [--, <5]
+  MAURITIUS: [--, <5]
+  MEXICO: [<5, <5]
+  MONGOLIA: [<5, <5]
+  MOROCCO: [--, <5]
+  NEPAL: [--, <5]
+  NETHERLANDS: [10, 23]
+  NEW CALEDONIA: [<5, <5]
+  NEW ZEALAND: [51, 24]
+  NORWAY: [13, <5]
+  PAKISTAN: [--, <5]
+  PANAMA: [<5, --]
+  PAPUA NEW GUINEA: [<5, 16]
+  PERU: [--, <5]
+  PHILIPPINES: [<5, 5]
+  POLAND: [9, <5]
+  PORTUGAL: [<5, <5]
+  ROMANIA: [<5, 5]
+  SAUDI ARABIA: [<5, 6]
+  SENEGAL: [--, <5]
+  SERBIA: [--, <5]
+  SINGAPORE: [8, 15]
+  SLOVAKIA: [<5, --]
+  SLOVENIA: [<5, --]
+  SOLOMON ISLANDS: [<5, <5]
+  SOUTH AFRICA: [6, 6]
+  SOUTH KOREA: [10, 12]
+  SPAIN: [11, 5]
+  SRI LANKA: [--, <5]
+  SWEDEN: [11, 5]
+  SWITZERLAND: [<5, <5]
+  TAIWAN: [<5, 9]
+  TANZANIA: [--, 9]
+  THAILAND: [<5, 11]
+  TIMOR-LESTE: [<5, <5]
+  TURKIYE: [<5, <5]
+  TURKMENISTAN: [<5, <5]
+  UKRAINE: [12, <5]
+  UNITED ARAB EMIRATES: [<5, <5]
+  UNITED KINGDOM: [20, 5]
+  UNITED STATES: [40, 14]
+  VIET NAM: [--, 8]
+  ZIMBABWE: [--, <5]
+Export Permits Issued to End Users by Region:
+  Africa: 4
+  Antarctica: 0
+  Asia: 24
+  Australia: 10
+  Europe: 32
+  North America: 12
+  Oceania: 15
+  South America: 3
+Export Applications:
+  Applications Received: 1037
+  Applications Finalised: 909
+Export Application Processing:
+  percent of export applications that were Non-Sensitive: 95
+  percent of export applications that were Sensitive/Complex: 5
+  percent of Non-Sensitive applications assessed within 15 days: 92
+  percent of Sensitive/Complex applications assessed within 35 days: 63
+Export Application Approvals and Assessments:
+  Permits (Customs Act) Issued: 486
+  Permits (Defence Trade Controls Act) Issued: 115
+  In-Principle Applications Approved: 10
+  Export Control Assessments Issued: 127
+  Advice to Government Agencies Issued: 27
+Export Application Prohibitions and Denials:
+  Denials (Customs Act): <5
+  In-Principle Applications Not Supported: 0
+  Prohibition Notices (Defence Trade Controls Act): 0
+  Prohibition Notices (Weapons of Mass Destruction Act): <5
+  Prohibition Notices (Military End Use): <5
+  Prohibition Notices (Publications): 0
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
+  Withdrawn, Made Inactive or Lapsed: 121
+  No Further Action Required: null
+Certificate Statistics:
+  International Import Certificates issued: 41
+  Delivery Verification Certificates issued: 43
+  Non-Transfer and End-Use Certificates issued: 16
+  Foreign End Use Certificates signed: 39
+Australian General Export Licences (AUSGEL) Statistics:
+  AUSGEL - Approved: 10
+  AUSGEL - Withdrawn: 6
+  Inactive: <5
+Certificates and Australian General Export Licences (AUSGEL) Processing:
+  Certificates: 95
+  Australian General Export Licenses (AUSGEL): 25
+Broker Registration:
+  Received: <5
+  Completed: 0
+  Withdrawn: 0
+Estimated Value of Approved Defence Permits:
+  # new format with no tables
+  Total number Permits: 601
+  number Permits with Values: 572
+  Estimated Value on Approved Defence Permits: 2550000000 # graph reads "$2.55bn"
+---
+Financial Year: 2024/2025
+Quarter: 1
+Total Issued Permits – By PART of the Defence and Strategic Goods List:
+  Defence and Strategic Goods List – Part 1: 475
+  Defence and Strategic Goods List – Part 2: 351
+Total Issued Permits – By CATEGORY of the Defence and Strategic Goods List:
+  Category 0 - Nuclear materials, facilities and equipment: --
+  Category 1 - Materials, chemicals, microorganisms and toxins: 42
+  Category 2 - Materials processing: 22
+  Category 3 - Electronics: <5
+  Category 4 - Computers: --
+  Category 5 - Telecommunications and information security: 407
+  Category 6 - Sensors and lasers: 25
+  Category 7 - Navigation and avionic: 35
+  Category 8 - Marine: <5
+  Category 9 - Aerospace and propulsion: 14
+Issued Permits – End-User Destinations by Country/Territory:
+  ALBANIA: [<5, <5]
+  ALGERIA: [--, <5]
+  ANTARCTICA: [--, <5]
+  ARGENTINA: [--, 7]
+  AUSTRALIA: [81, 24]
+  AUSTRIA: [<5, <5]
+  BAHRAIN: [--, <5]
+  BANGLADESH: [<5, <5]
+  BELGIUM: [<5, <5]
+  BRAZIL: [--, 6]
+  BRUNEI: [<5, --]
+  BULGARIA: [--, <5]
+  BURKINA FASO: [--, <5]
+  CANADA: [16, 7]
+  CHILE: [--, <5]
+  CHINA: [<5, 5]
+  CHRISTMAS ISLAND: [<5, --]
+  COLOMBIA: [<5, <5]
+  CÔTE D'IVOIRE: [--, <5]
+  CROATIA: [--, <5]
+  CYPRUS: [<5, <5]
+  CZECHIA: [--, 5]
+  DENMARK: [11, <5]
+  DOMINICAN REPUBLIC: [--, <5]
+  ECUADOR: [--, <5]
+  EGYPT: [--, <5]
+  ESTONIA: [--, <5]
+  FIJI: [--, <5]
+  FINLAND: [<5, <5]
+  FRANCE: [14, 11]
+  GERMANY: [32, 12]
+  GHANA: [<5, <5]
+  GREECE: [5, <5]
+  GUAM: [<5, --]
+  GUINEA: [--, <5]
+  GUINEA-BISSAU: [--, <5]
+  GUYANA: [--, <5]
+  HONG KONG: [--, <5]
+  HUNGARY: [--, <5]
+  INDIA: [12, 21]
+  INDONESIA: [6, 24]
+  IRELAND: [<5, 16]
+  ISRAEL: [<5, --]
+  ITALY: [<5, 7]
+  JAMAICA: [<5, --]
+  JAPAN: [8, 15]
+  JORDAN: [--, <5]
+  KAZAKHSTAN: [<5, 5]
+  KENYA: [--, <5]
+  KIRIBATI: [--, <5]
+  KUWAIT: [--, <5]
+  LAOS: [<5, <5]
+  LATVIA: [--, <5]
+  LITHUANIA: [<5, <5]
+  LUXEMBOURG: [<5, <5]
+  MACEDONIA (NORTH): [--, <5]
+  MALAYSIA: [<5, 10]
+  MALI: [--, <5]
+  MALTA: [<5, <5]
+  MAURITANIA: [--, <5]
+  MAURITIUS: [--, <5]
+  MEXICO: [<5, 7]
+  MONGOLIA: [<5, <5]
+  MOROCCO: [--, <5]
+  MOZAMBIQUE: [--, <5]
+  MYANMAR: [--, <5]
+  NAMIBIA: [--, <5]
+  NEPAL: [<5, --]
+  NETHERLANDS: [10, 14]
+  NEW CALEDONIA: [<5, <5]
+  NEW ZEALAND: [51, 19]
+  NORFOLK ISLAND: [5, --]
+  NORWAY: [18, 11]
+  OMAN: [--, <5]
+  PAKISTAN: [<5, --]
+  PANAMA: [--, <5]
+  PAPUA NEW GUINEA: [<5, 8]
+  PERU: [--, 5]
+  PHILIPPINES: [<5, 13]
+  POLAND: [<5, 5]
+  PORTUGAL: [<5, <5]
+  QATAR: [<5, <5]
+  ROMANIA: [--, <5]
+  SAMOA: [--, <5]
+  SAUDI ARABIA: [<5, 5]
+  SERBIA: [--, <5]
+  SINGAPORE: [14, 23]
+  SLOVAKIA: [--, <5]
+  SLOVENIA: [<5, <5]
+  SOLOMON ISLANDS: [<5, --]
+  SOMALIA: [--, <5]
+  SOUTH AFRICA: [<5, 8]
+  SOUTH KOREA: [12, 12]
+  SPAIN: [6, <5]
+  SRI LANKA: [<5, --]
+  SURINAME: [--, <5]
+  SVALBARD & JAN MAYEN: [--, <5]
+  SWEDEN: [6, 8]
+  SWITZERLAND: [<5, <5]
+  TAIWAN: [<5, 7]
+  TANZANIA: [--, 5]
+  THAILAND: [5, 13]
+  TIMOR-LESTE: [--, <5]
+  TUNISIA: [--, <5]
+  TURKIYE: [<5, <5]
+  UKRAINE: [9, <5]
+  UNITED ARAB EMIRATES: [6, 6]
+  UNITED KINGDOM: [50, 21]
+  UNITED STATES: [133, 90]
+  VANUATU: [--, <5]
+  VIET NAM: [<5, --]
+  ZIMBABWE: [--, <5]
+Export Permits Issued to End Users by Region:
+  Africa: 3
+  Antarctica: 0
+  Asia: 20
+  Australia: 11
+  Europe: 26
+  ISO 3166: null
+  North America:  27
+  Oceania: 10
+  Other: null
+  South America: 3
+Export Applications:
+  Applications Received: 1028
+  Applications Finalised: 1173
+Export Application Processing:
+  percent of export applications that were Non-Sensitive: 95
+  percent of export applications that were Sensitive/Complex: 5
+  percent of Non-Sensitive applications assessed within 15 days: 75
+  percent of Sensitive/Complex applications assessed within 35 days: 96
+Export Application Approvals and Assessments:
+  Permits (Customs Act) Issued: 679
+  Permits (Defence Trade Controls Act) Issued: 142
+  In-Principle Applications Approved: 17
+  Export Control Assessments Issued: 170
+  Advice to Government Agencies Issued: 45
+Export Application Prohibitions and Denials:
+  Denials (Customs Act): null
+  In-Principle Applications Not Supported: <5
+  Prohibition Notices (Defence Trade Controls Act): null
+  Prohibition Notices (Weapons of Mass Destruction Act): null
+  Prohibition Notices (Military End Use): null
+  Prohibition Notices (Publications): null
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
+  Withdrawn, Made Inactive or Lapsed: 66
+  No Further Action Required: null
+Certificate Statistics:
+  International Import Certificates issued: 53
+  Delivery Verification Certificates issued: 70
+  Non-Transfer and End-Use Certificates issued: 8
+  Foreign End Use Certificates signed: 32
+Australian General Export Licences (AUSGEL) Statistics:
+  AUSGEL - Approved: 3
+  AUSGEL - Withdrawn: null
+Certificates and Australian General Export Licences (AUSGEL) Processing:
+  Certificates: 98
+  Australian General Export Licenses (AUSGEL): 67
+Broker Registration:
+  Received: 2
+  Completed: 1
+  Withdrawn: 1
+Estimated Value of Approved Defence Permits:
+  Total number Permits: 818
+  number Permits with Values: 791
+  percent of Defence Permits with a Declared Value: 97
+  Estimated Value on Approved Defence Permits: 4233341361
+---
 Financial Year: 2023/2024
 Export Applications:
   Applications Received: [1013, 1033, 986, 1035]

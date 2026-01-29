@@ -1,0 +1,60 @@
+# YAML file describing where each Defence Export Controls export is found
+source-documents:
+  - financial year: 2025-2026
+    urls:
+      q1: https://www.defence.gov.au/sites/default/files/2025-12/Defence%20Export%20Controls%20Summary%20Report%20Q1%202025-2026%20-%201%20July%202025%20to%2030%20September%202025.pdf
+  - financial year: 2024-2025
+    urls:
+      q1: https://www.defence.gov.au/sites/default/files/2024-11/Q1-1July-30SeptemberReportingforFinancialYear2024-25.pdf
+      q2: https://www.defence.gov.au/sites/default/files/2025-09/Defence-Export-Controls-Summary-Report-1-October-to-31-December-2024-25.pdf
+      q3: https://www.defence.gov.au/sites/default/files/2025-10/Defence-Export-Controls-Summary-Report-Q3-2024-25-January-2025-31-March-2025.pdf
+      q4: https://www.defence.gov.au/sites/default/files/2025-12/defence-export-control-summar-report-Q4-2024-2025-1-April-2025-to-30-June-2025.pdf
+  - financial year: 2023-2024
+    url: https://www.defence.gov.au/sites/default/files/2024-02/OurPerformance-FY2023-24.pdf
+  - financial year: 2022-2023
+    url: https://www.defence.gov.au/sites/default/files/2024-02/Our-Performance-FY2022-23.pdf
+  - financial year: 2021-2022
+    url: https://www.defence.gov.au/sites/default/files/2023-01/Financial-Year-2021-22-Statistics-v2.pdf
+  - financial year: 2020-2021
+    url: https://www.defence.gov.au/sites/default/files/2022-08/Financial-Year-2020-21-Statistics.pdf
+  - financial year: 2019-2020
+    url: https://www.defence.gov.au/sites/default/files/2021-04/Financial%20Year%202019%2020%20Statistics.pdf
+  - financial year: 2018-2019
+    url: https://www.defence.gov.au/sites/default/files/2020-10/Financial%20Year%202018%2019%20Statistics.pdf
+  - financial year: 2017-2018
+    url: https://www.defence.gov.au/sites/default/files/2020-10/Financial%20Year%202017%2018%20Statistics%202.pdf
+  - financial year: 2016-2017
+    url: https://www.defence.gov.au/sites/default/files/2020-10/Financial%20Year%202016%2017%20Statistics.pdf
+structure:
+  - name: dsgl-parts
+    aliases: ["Total Issued Permits – By PART of the Defence and Strategic Goods List", "Associated with unique end-user destination and part of the Defence Strategic Goods List"]
+    special: ["optional", "multipage"]
+  - name: dsgl-categories
+    aliases: ["Total Issued Permits – By CATEGORY of the Defence and Strategic Goods List", "Associated with unique end-user destination and category within Part 2 of the Defence Strategic Goods List"]
+    special: ["optional", "multipage"]
+  - name: end-user-destinations-territory
+    # introduced in 2024/2025 Q1
+    aliases:
+      - "Issued Permits – End-User Destinations by Country/Territory"
+      - "Issued Permits – End-User Destinations" # this has overlap with by region, requiring a further logical check in code
+    special: ["optional", "country check", "multipage"]
+  - name: end-user-destinations-regions
+    aliases: ["Issued Permits – End-User Destinations by Region"]
+  - name: export-applications-received-finalised
+    aliases: ["Export Applications – Received and Finalised"]
+  - name: export-applications-processing
+    aliases: ["Export Applications – Processing"]
+  - name: export-applications-approvals-assessments
+    aliases: ["Export Applications – Approvals and Assessments"]
+  - name: export-applications-prohibitions-denials
+    aliases: ["Export Applications – Prohibitions and Denials"]
+  - name: export-applications-inactive
+    aliases: ["Export Applications – Withdrawn, Made Inactive, Lapsed, No Further Action Required"]
+  - name: certificate-statistics
+    aliases: ["Certificate Statistics"]
+  - name: ausgel-statistics
+    aliases: ["Australian General Export Licences (AUSGEL) – Statistics and Processing"]
+  - name: broker-registration
+    aliases: ["Broker Registration"]
+  - name: estimated-value
+    aliases: ["Estimated Value of Approved Defence Permits", "Applicant-Estimated Value of Defence Permits"]
