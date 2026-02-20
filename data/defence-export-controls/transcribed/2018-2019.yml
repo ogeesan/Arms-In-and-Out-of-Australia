@@ -1,0 +1,54 @@
+Financial Year: 2018/2019
+Export Applications:
+  Applications received: [980, 998, 1000, 995]
+  Applications finalised: [1132, 946, 1047, 886]
+Export Application Processing:
+  # this data now split into two tables
+  percent of export applications that were Non-Sensitive: [92, 88, 92, 86]
+  percent of export applications that were Sensitive/Complex: [8, 12, 8, 14]
+  percent of Non-Sensitive applications assessed within 15 days: [68, 78, 70, 76]
+  percent of Sensitive/Complex applications assessed within 35 days: [69, 63, 70, 85]
+Export Application Outcomes:
+  Permits (Customs Act) Issued: [693, 500, 651, 496]
+  Permits (Defence Trade Controls Act) Issued: [105, 99, 148, 88]
+  In-Principle Applications Approved: [16, 25, 18, 13]
+  Export Control Assessments Issued: [140, 129, 99, 160]
+  Advice to Government Agencies Issued: [67, 66, 38, 28]
+Export Application Prohibitions and Denials:
+  Denials (Customs Act): [0, 0, 1, 1]
+  In-Principle Applications Not Supported: [1, 0, 0, 0]
+  Prohibition Notices (Defence Trade Controls Act): [0, 0, 0, 0]
+  Prohibition Notices (Weapons of Mass Destruction Act): [2, 2, 1, 1]
+  Prohibitions Notices (Military End-Use): [1, 0, 0, 0]
+  Prohibition Notices (Publications): [0, 0, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
+  Withdrawn, Made Inactive, or Lapsed: [97, 85, 83, 82]
+  No Further Action Required: [8, 39, 8, 14]
+Certificate Statistics:
+  International Import Certificates issued: [81, 100, 97, 77]
+  Delivery Verification Certificates issued: [22, 42, 59, 95]
+  Non-Transfer and End-Use Certificates issued: [14, 23, 31, 20]
+  Foreign End Use Certificates signed: [55, 58, 57, 54]
+Australian General Export Licences (AUSGEL) Statistics:
+  AUSGEL - Approved: [4, 4, 2, 3]
+  AUSGEL - Withdrawn: [13, 9, 11, 0]
+Certificates and Australian General Export Licences (AUSGEL) Processing:
+  Certificates: [96, 92, 98, 100]
+  Australian General Export Licenses (AUSGEL): [76, 77, 100, 100]
+Broker Registration:
+  Broker Registration - Received: [0, 2, 0, 1]
+  Broker Registration - Completed: [0, 1, 0, 1]
+  Broker Registrations - Withdrawn: [0, 0, 0, 0]
+Value of Approved Defence Permits:
+  Value of Approved Defence Permits: [3198959846, 505615278, 793557290, 402454294]
+  percent of Defence Permits with a Declared Value: [92, 91, 90, 99]
+Export Permits Issued to End Users by Continent:
+  Africa: [4, 3, 4, 2]
+  Antarctica: [0, 0, 0, 0]
+  Asia: [20, 21, 18, 20]
+  Australia: [16, 19, 21, 20]
+  Europe: [18, 22, 20, 18]
+  North America: [22, 20, 21, 22]
+  Oceania: [16, 13, 15, 17]
+  Other: [0, 0, 0, 0]
+  South America: [2, 2, 1, 0]

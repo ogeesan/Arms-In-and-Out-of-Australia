@@ -1,0 +1,54 @@
+Financial Year: 2019/2020
+Export Applications:
+  Applications Received: [954, 880, 923, 794]
+  Applications Finalised: [939, 1094, 919, 867]
+Export Application Processing:
+  percent of export applications that were Non-Sensitive: [84, 89, 85, 83]
+  percent of export applications that were Sensitive/Complex: [16, 11, 15, 17]
+  percent of Non-Sensitive applications assessed within 15 days: [52, 56, 76, 91]
+  percent of Sensitive/Complex applications assessed within 35 days: [56, 66, 91, 86]
+Export Application Approvals and Assessments:
+  Permits (Customs Act) Issued: [559, 604, 502, 473]
+  Permits (Defence Trade Controls Act) Issued: [78, 122, 114, 103]
+  In-Principle Applications Approved: [18, 25, 13, 15]
+  Export Control Assessments Issued: [148, 171, 155, 150]
+  Advice to Government Agencies Issued: [40, 51, 45, 65]
+Export Application Prohibitions and Denials:
+  Denials (Customs Act): [1, 1, 0, 0]
+  In-Principle Applications Not Supported: [1, 3, 1, 3]
+  Prohibition Notices (Defence Trade Controls Act): [0, 0, 0, 0]
+  Prohibition Notices (Weapons of Mass Destruction Act): [1, 0, 0, 0]
+  Prohibition Notices (Military End Use): [0, 1, 0, 0]
+  Prohibition Notices (Publications): [0, 0, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
+  Withdrawn, Made Inactive or Lapsed: [83, 104, 76, 50]
+  No Further Action Required: [6, 12, 13, 6]
+Certificate Statistics:
+  International Import Certificates issued: [85, 107, 92, 81]
+  Delivery Verification Certificates issued: [72, 38, 43, 27]
+  Non-Transfer and End-Use Certificates issued: [26, 18, 13, 24]
+  Foreign End Use Certificates signed: [54, 46, 39, 50]
+Australian General Export Licences (AUSGEL) Statistics:
+  AUSGEL - Approved: [8, 7, 8, 12]
+  AUSGEL - Withdrawn: [1, 3, 2, 6]
+Certificates and Australian General Export Licences (AUSGEL) Processing:
+  Certificates: [99, 99, 97, 98]
+  Australian General Export Licenses (AUSGEL): [100, 100, 100, 100]
+Broker Registration:
+  Received: [4, 2, 1, 1]
+  Completed: [1, 0, 0, 1]
+  Withdrawn: [3, 1, 1, 1]
+Estimated Value of Approved Defence Permits:
+# Caveats on statistics in this section: From 1 January 2018 onwards, applicants have been required to include their estimation of the total value of their export over the life of the permit. Some permits extend over multiple years. Year-to-year comparisons of export values could therefore be misleading.
+  Estimated Value on Approved Defence Permits: [2136918201, 1237448249, 539939565, 1354953699]
+  percent of Defence Permits with a Declared Value: [97, 98, 96, 95]
+Export Permits Issued to End Users by Region:
+  Africa: [4, 5, 3, 4]
+  Antarctica: [null, null, null, null] # strange that the row is empty
+  Asia: [18, 18, 16, 17]
+  Australia: [19, 15, 20, 14]
+  Europe: [19, 21, 21, 19]
+  North America: [19, 22, 25, 29]
+  Oceania: [19, 16, 14, 14]
+  Other: [0, 0, null, 0]
+  South America: [2, 2, 2, 1]

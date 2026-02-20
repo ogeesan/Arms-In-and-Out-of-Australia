@@ -3,10 +3,9 @@ data/transcribed/defence-exports-controls.yml
 """
 
 # %% Defence Export Controls data
-from typing import NamedTuple, Annotated
+from typing import Annotated, NamedTuple
 
-from pydantic import Field, ConfigDict, BaseModel
-
+from pydantic import BaseModel, ConfigDict, Field
 
 ValueType = int | None
 QuarterValues = NamedTuple(

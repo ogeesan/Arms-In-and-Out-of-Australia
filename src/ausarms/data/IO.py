@@ -6,9 +6,10 @@ from pathlib import Path
 from urllib.request import urlretrieve
 
 import tqdm
+import yaml
 from pydantic import BaseModel, Field, HttpUrl
 
-DATA_DIR = Path(__file__).parent.parent.parent.parent.parent / "data"
+DATA_DIR = Path(__file__).parent.parent.parent.parent / "data"
 
 
 class MetaDataEntry(BaseModel):
@@ -61,3 +62,39 @@ def bulk_download(
         )
         metadata_entries.append(metadata_entry)
     return MetaData(downloads=metadata_entries)
+
+
+class SafeLineLoader(yaml.SafeLoader):
+    """YAML loader that inserts line number into the extracted data"""
+
+    # augurar's Stack Overflow answer
+    # https://stackoverflow.com/a/53647080
+    def construct_mapping(self, node, deep=False):
+        mapping = super(SafeLineLoader, self).construct_mapping(node, deep=deep)
+        # Add 1 so line numbering starts at 1
+        mapping["__line__"] = node.start_mark.line + 1
+        return mapping
+
+
+def load_yaml(filepath: Path, with_line_numbers: bool = False):
+    with open(filepath) as f:
+        if with_line_numbers:
+            loaded = yaml.load_all(f, Loader=SafeLineLoader)
+        else:
+            loaded = yaml.load_all(f, Loader=yaml.SafeLoader)
+        docs = [x for x in loaded]
+    assert len(docs) == 1
+    return docs[0]
+
+
+def load_multipage_yaml(filepath: Path, with_line_numbers: bool = False) -> list:
+    """Loads .yml data with multiple pages."""
+    data = []
+    with open(filepath) as f:
+        if with_line_numbers:
+            stream = yaml.load_all(f, Loader=SafeLineLoader)
+        else:
+            stream = yaml.load_all(f, Loader=yaml.SafeLoader)
+        for document in stream:
+            data.append(document)
+    return data

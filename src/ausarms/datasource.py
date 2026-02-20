@@ -4,7 +4,7 @@ from pathlib import Path
 import urllib
 
 import pandas as pd
-import yaml
+
 
 rawdatafolder = Path("data/raw")
 
@@ -165,28 +165,3 @@ def download_sipri_milex_data() -> None:
         return
 
     urllib.request.urlretrieve(url, local_path)
-
-
-class SafeLineLoader(yaml.SafeLoader):
-    """YAML loader that inserts line number into the extracted data"""
-
-    # augurar's Stack Overflow answer
-    # https://stackoverflow.com/a/53647080
-    def construct_mapping(self, node, deep=False):
-        mapping = super(SafeLineLoader, self).construct_mapping(node, deep=deep)
-        # Add 1 so line numbering starts at 1
-        mapping["__line__"] = node.start_mark.line + 1
-        return mapping
-
-
-def load_multipage_yaml(filepath: Path, with_line_numbers: bool = False) -> list:
-    """Loads .yml data with multiple pages."""
-    data = []
-    with open(filepath) as f:
-        if with_line_numbers:
-            stream = yaml.load_all(f, Loader=SafeLineLoader)
-        else:
-            stream = yaml.load_all(f, Loader=yaml.SafeLoader)
-        for document in stream:
-            data.append(document)
-    return data

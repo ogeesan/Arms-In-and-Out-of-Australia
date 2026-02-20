@@ -4,7 +4,7 @@ from pathlib import Path
 
 from sqlalchemy.orm.session import Session
 
-from ausarms import datasource, mappings
+from ausarms.data import IO, mappings
 from ausarms.models import dec as models
 from ausarms.schemas import dec as schemas
 
@@ -17,7 +17,7 @@ class DECTransformer:
         self.session = session
 
     def build_data(self):
-        rawdata = datasource.load_multipage_yaml(self.filepath, with_line_numbers=False)
+        rawdata = IO.load_multipage_yaml(self.filepath, with_line_numbers=False)
         # mappings.print_unique_names(self.data)
         mappings.remap_dec_data_names(rawdata)
         self.data = [schemas.FinancialYear(**page) for page in rawdata]

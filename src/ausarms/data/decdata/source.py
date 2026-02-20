@@ -7,7 +7,7 @@ import yaml
 from pdfplumber.pdf import PDF
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
-from ausarms.data.source import IO
+from ausarms.data import IO
 
 DATA_ROOT = IO.DATA_DIR.joinpath("defence-export-controls")
 MANIFEST_PATH = DATA_ROOT.joinpath("dec-manifest.yml")

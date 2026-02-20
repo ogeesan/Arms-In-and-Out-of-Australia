@@ -1,0 +1,54 @@
+Financial Year: 2016/2017
+Export Applications:
+  Applications received: [993, 881, 874, 842]
+  Applications finalised: [1043, 924, 799, 808]
+Export Application Processing:
+  percent of export applications that were Non-sensitive: [94, 93, 92, 94]
+  percent of export applications that were Sensitive/complex: [6, 7, 8, 6]
+  percent of Non-Sensitive applications assessed within 15 days: [90, 97, 98, 94]
+  percent of Sensitive/Complex applications assessed within 35 days: [92, 98, 88, 90]
+Export Application Outcomes:
+  Permits (Customs Act) Issued: [675, 559, 508, 522]
+  Permits (Defence Trade Controls Act) Issued: [69, 40, 47, 47]
+  Brokering Arrangement Permits Issued: [0, 0, 0, 0]
+  In-Principle Applications Approved: [15, 8, 15, 6]
+  Export Control Assessments Issued: [136, 108, 109, 83]
+  Advice to Government Agencies Issued: [64, 68, 57, 69]
+Export Application Prohibitions and Denials:
+  Denials (Customs Act): [0, 0, 0, 0]
+  Denials (Defence Trade Controls Act): [0, 0, 0, 0]
+  In-Principle Applications not supported: [0, 0, 0, 0]
+  Prohibition Notices (Defence Trade Controls Act): [0, 0, 0, 0]
+  Prohibition Notices (Weapons of Mass Destruction Act): [0, 0, 0, 0]
+  Prohibitions Notices (Military End-Use): [0, 1, 0, 0]
+Export Applications Withdrawn, Made Inactive, Lapsed and No Further Action Required:
+  Withdrawn, Made Inactive, or Lapsed: [42, 115, 38, 44] # TODO: * 88 of these 115 applications were created incorrectly and subsequently made inactive.
+  No Further Action Required: [37, 24, 22, 34]
+Certificates Issued:
+  International Import Certificates issued: [138, 114, 141, 118]
+  Delivery Verification Certificates issued: [33, 55, 28, 23]
+  Non-Transfer and End-Use Certificates issued: [23, 32, 38, 34]
+  Foreign End Use Certificates signed: [19, 41, 10, 23]
+Australian General Export Licences (AUSGEL) Statistics:
+  AUSGEL - Approved: [19, 8, 2, 1]
+  AUSGEL - Application withdrawn by applicant: [12, 8, 8, 12]
+Certificates and Australian General Export Licences (AUSGEL) Processing:
+  Certificates: [99, 99, 99, 97]
+  Australian General Export Licenses (AUSGEL): [84, 100, 100, 100]
+Broker Registration:
+  Broker Registration - Received: [4, 0, 1, 1]
+  Broker Registration - Completed: [2, 0, 0, 1]
+  Broker Registrations - Withdrawn: [0, 2, 0, 1]
+Value of Approved Defence Permits by Year:
+# Caveat on statistics in this section: Exporters do not have to provide the value of their exports when applying for an export permit. The figures below provide the yearly totals of values that were provided in export applications.
+  Value of Approved Defence Permits: [1630200456, 4216450640, 312762706, 255908031]
+  percent of Defence Permits with a Declared Value: [63, 63, 72, 73]
+Export Permits Issued to End Users by Continent:
+  Asia: [21, 20, 19, 17]
+  Australia: [24, 22, 22, 27] # Export Permits issued to Australian end users relate to returns and repairs
+  North America: [17, 19, 22, 19]
+  Oceania: [19, 17, 18, 17]
+  Europe: [13, 14, 14, 14]
+  Africa: [4, 4, 3, 4]
+  South America: [1, 2, 1, 1]
+  Other: [1, 1, 1, 1]

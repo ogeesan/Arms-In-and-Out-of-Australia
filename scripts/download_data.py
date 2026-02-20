@@ -5,13 +5,13 @@ from pathlib import Path
 import typer
 from tqdm import tqdm
 
+from ausarms.data.decdata.extract import find_heading_locations
 from ausarms.data.decdata.source import (
     SOURCE_FOLDER,
     DECManifest,
-    find_heading_locations,
     load_manifest,
 )
-from ausarms.data.source.IO import bulk_download
+from ausarms.data.IO import bulk_download
 
 app = typer.Typer()
 
