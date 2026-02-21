@@ -15,7 +15,10 @@ def dec():
 
     filelist = [x for x in path.joinpath("transcribed").glob("*.yml")]
     for filepath in filelist:
-        schema.FinancialYear.model_validate(IO.load_yaml(filepath))
+        try:
+            schema.FinancialYear.model_validate(IO.load_yaml(filepath))
+        except Exception as e:
+            print(f"\nError validating {filepath.name}: {e}")
 
 
 @app.command()
