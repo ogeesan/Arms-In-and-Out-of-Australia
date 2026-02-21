@@ -3,26 +3,30 @@ data/transcribed/defence-exports-controls.yml
 """
 
 # %% Defence Export Controls data
-from typing import Annotated, NamedTuple
+from typing import Annotated, NamedTuple, Optional, Union
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import AliasChoices, BaseModel, ConfigDict, Field
 
-ValueType = int | None
-QuarterValues = NamedTuple(
-    "EntryType",
-    [
-        ("quarter1", ValueType),
-        ("quarter2", ValueType),
-        ("quarter3", ValueType),
-        ("quarter4", ValueType),
-    ],
-)
+ValueType = int | None | str
+QuarterValues = Union[
+    NamedTuple(
+        "EntryType",
+        [
+            ("quarter1", ValueType),
+            ("quarter2", ValueType),
+            ("quarter3", ValueType),
+            ("quarter4", ValueType),
+        ],
+    ),
+    ValueType,
+]
 
 
 class CoreModel(BaseModel):
     model_config = ConfigDict(
         # validate using alias
         populate_by_name=True,
+        str_to_lower=True,
     )
 
 
@@ -30,10 +34,22 @@ class ExportApplications(CoreModel):
     """Statistics on export applications received and finalised."""
 
     ApplicationsReceived: Annotated[
-        QuarterValues, Field(..., alias="Applications Received")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Applications Received", "Applications received"
+            ),
+        ),
     ]
     ApplicationsFinalised: Annotated[
-        QuarterValues, Field(..., alias="Applications Finalised")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Applications Finalised", "Applications finalised"
+            ),
+        ),
     ]
 
 
@@ -42,12 +58,22 @@ class ExportApplicationProcessing(CoreModel):
         QuarterValues,
         Field(
             ...,
-            alias="percent of export applications that were Non-Sensitive",
+            validation_alias=AliasChoices(
+                "percent of export applications that were Non-Sensitive",
+                "percent of export applications that were Non-sensitive",
+                "percent of export applications that were Non-Sensitive/Non-Complex",
+            ),
         ),
     ]
     percent_sensitive: Annotated[
         QuarterValues,
-        Field(..., alias="percent of export applications that were Sensitive/Complex"),
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "percent of export applications that were Sensitive/Complex",
+                "percent of export applications that were Sensitive/complex",
+            ),
+        ),
     ]
     percent_non_sensitive_within_15_days: Annotated[
         QuarterValues,
@@ -84,21 +110,47 @@ class ExportApplicationApprovals(CoreModel):
 
 class ExportApplicationsDenials(CoreModel):
     denials_customs_act: Annotated[
-        QuarterValues, Field(..., alias="Denials (Customs Act)")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Denials (Customs Act)", "Permits refused (Customs Act)"
+            ),
+        ),
     ]
     inprinciple_not_supported: Annotated[
-        QuarterValues, Field(..., alias="In-Principle Applications Not Supported")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "In-Principle Applications Not Supported",
+                "In-Principle Applications not supported",
+            ),
+        ),
     ]
     prohibition_dtc: Annotated[
         QuarterValues,
-        Field(..., alias="Prohibition Notices (Defence Trade Controls Act)"),
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Prohibition Notices (Defence Trade Controls Act)",
+                "Permits refused (Defence Trade Controls Act)",
+            ),
+        ),
     ]
     prohibition_wmd: Annotated[
         QuarterValues,
         Field(..., alias="Prohibition Notices (Weapons of Mass Destruction Act)"),
     ]
     prohibition_military_end_use: Annotated[
-        QuarterValues, Field(alias="Prohibition Notices (Military End Use)")
+        QuarterValues,
+        Field(
+            validation_alias=AliasChoices(
+                "Prohibition Notices (Military End Use)",
+                "Prohibition Notices (Military End-Use)",
+                "Prohibitions Notices (Military End-Use)",
+            )
+        ),
     ]
     prohibition_publications: Annotated[
         QuarterValues, Field(None, alias="Prohibition Notices (Publications)")
@@ -107,11 +159,23 @@ class ExportApplicationsDenials(CoreModel):
 
 class ExportsApplicationsUnused(CoreModel):
     withdrawn_inactive_lapsed: Annotated[
-        QuarterValues, Field(..., alias="Withdrawn, Made Inactive, or Lapsed")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Withdrawn, Made Inactive, or Lapsed",
+                "Withdrawn, made inactive, lapsed",
+                "Withdrawn, Made Inactive or Lapsed",
+            ),
+        ),
     ]
     no_further_action: Annotated[
         QuarterValues,
-        Field(alias="No Further Action Required"),  # not every year has this
+        Field(
+            validation_alias=AliasChoices(
+                "No Further Action Required", "no further action required"
+            )
+        ),  # not every year has this
     ]
 
 
@@ -126,25 +190,69 @@ class CertificateStatistics(CoreModel):
         QuarterValues, Field(..., alias="Non-Transfer and End-Use Certificates issued")
     ]
     foreign_end_use: Annotated[
-        QuarterValues, Field(..., alias="Foreign End Use Certificates signed")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Foreign End Use Certificates signed",
+                "Foreign End User Certificates signed",
+            ),
+        ),
     ]
 
 
 class AUSGELStatistics(CoreModel):
     approved: Annotated[QuarterValues, Field(..., alias="AUSGEL - Approved")]
-    withdrawn: Annotated[QuarterValues, Field(..., alias="AUSGEL - Withdrawn")]
+    withdrawn: Annotated[
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "AUSGEL - Withdrawn", "AUSGEL - Application withdrawn by applicant"
+            ),
+        ),
+    ]
 
 
 class AUSGELProcessing(CoreModel):
     certificates: Annotated[QuarterValues, Field(..., alias="Certificates")]
     ausgel: Annotated[
-        QuarterValues, Field(..., alias="Australian General Export Licences (AUSGEL)")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Australian General Export Licences (AUSGEL)",
+                "Australian General Export Licenses (AUSGEL)",
+            ),
+        ),
     ]
 
 
 class BrokerRegistration(CoreModel):
-    completed: Annotated[QuarterValues, Field(..., alias="Completed")]
-    withdrawn: Annotated[QuarterValues, Field(..., alias="Withdrawn")]
+    received: Annotated[
+        Optional[QuarterValues],
+        Field(None, validation_alias=AliasChoices("Broker Registration - Received")),
+    ]
+    completed: Annotated[
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Broker Registration - Completed", "Completed"
+            ),
+        ),
+    ]
+    withdrawn: Annotated[
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Broker Registration - Withdrawn",
+                "Broker Registrations - Withdrawn",
+                "Withdrawn",
+            ),
+        ),
+    ]
 
 
 class EstimatedValueApproved(CoreModel):
@@ -157,15 +265,28 @@ class EstimatedValueApproved(CoreModel):
     # these two aren't present in all data
     total: Annotated[QuarterValues, Field(None, alias="Total number permits")]
     number_with_value: Annotated[
-        QuarterValues, Field(None, alias="number Permits with Values")
+        QuarterValues,
+        Field(
+            None,
+            validation_alias=AliasChoices(
+                "number Permits with Values", "number Permits with Values"
+            ),
+        ),
     ]
 
     percent_with_value: Annotated[
         QuarterValues,
-        Field(..., alias="percent of Defence Permits with a Declared Value"),
+        Field(None, alias="percent of Defence Permits with a Declared Value"),
     ]
     value: Annotated[
-        QuarterValues, Field(..., alias="Estimated Value on Approved Defence Permits")
+        QuarterValues,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Estimated Value on Approved Defence Permits",
+                "Value of Approved Defence Permits",
+            ),
+        ),
     ]
 
 
@@ -190,7 +311,13 @@ class FinancialYear(CoreModel):
     ]
     ExportApplicationOutcomes: Annotated[
         ExportApplicationApprovals,
-        Field(..., alias="Export Application Approvals and Assessments"),
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Export Application Approvals and Assessments",
+                "Export Application Outcomes",
+            ),
+        ),
     ]
     ExportApplicationsDenials: Annotated[
         ExportApplicationsDenials,
@@ -204,7 +331,13 @@ class FinancialYear(CoreModel):
         ),
     ]
     CertificateStatistics: Annotated[
-        CertificateStatistics, Field(..., alias="Certificate Statistics")
+        CertificateStatistics,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Certificate Statistics", "Certificates Issued"
+            ),
+        ),
     ]
     AUSGELStatistics: Annotated[
         AUSGELStatistics,
@@ -222,8 +355,22 @@ class FinancialYear(CoreModel):
     ]
     EstimatedValueApproved: Annotated[
         EstimatedValueApproved,
-        Field(..., alias="Estimated Value of Approved Defence Permits"),
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Estimated Value of Approved Defence Permits",
+                "Value of Approved Defence Permits",
+                "Value of Approved Defence Permits by Year",
+            ),
+        ),
     ]
     Region: Annotated[
-        Region, Field(..., alias="Export Permits Issued to End Users by Region")
+        Region,
+        Field(
+            ...,
+            validation_alias=AliasChoices(
+                "Export Permits Issued to End Users by Region",
+                "Export Permits Issued to End Users by Continent",
+            ),
+        ),
     ]
